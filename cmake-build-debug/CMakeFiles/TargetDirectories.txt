@@ -1,0 +1,3 @@
+C:/Users/Alina/Desktop/Facultate/poo1/cmake-build-debug/CMakeFiles/poo1.dir
+C:/Users/Alina/Desktop/Facultate/poo1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Alina/Desktop/Facultate/poo1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
