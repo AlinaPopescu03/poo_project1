@@ -16,6 +16,10 @@ public:
     {std::cout<<"Constructor abonament parametrizat"<<std::endl;}
     // Constructor cu parametrii
 
+    void ActualizareMinuteNationale(float minute_nationale){this->minute_nationale=minute_nationale;}
+    void ActualizareMinuteInternationale(float minute_internationale){this->minute_internationale=minute_internationale;}
+    void ActualizareTraficInternet(float trafic_internet){this->trafic_internet=trafic_internet;}
+
     float getMinute_Nationale() const{return minute_nationale;}
     float getMinute_Internationale() const {return minute_internationale;}
     float getTrafic_Internet() const {return trafic_internet;}
@@ -33,6 +37,31 @@ private:
     float pret_total;
     abonament cerere;
     abonament oferta;
+    void setPret_Abonament()
+    {
+        pret_abonament=20*(oferta.getMinute_Internationale()/1000)+25*(oferta.getMinute_Nationale()/100)+
+                       25*(oferta.getTrafic_Internet()/1000);
+    } //Setare pret contract
+
+    void setPret_Total()
+    {
+        if (cost_suplimentar==0)
+            pret_total=pret_abonament;
+        else
+            pret_total=pret_abonament+cost_suplimentar;
+    } //Calculare plata lunara
+
+    void setCost_Suplimentar()
+    {
+        cost_suplimentar=0;
+        if(cerere.getMinute_Internationale()>oferta.getMinute_Internationale())
+            cost_suplimentar+=10*(cerere.getMinute_Internationale()-oferta.getMinute_Internationale())/1000;
+        if (cerere.getMinute_Nationale()>oferta.getMinute_Nationale())
+            cost_suplimentar+=15*(cerere.getMinute_Nationale()-oferta.getMinute_Nationale())/100;
+        if (cerere.getTrafic_Internet()>oferta.getTrafic_Internet())
+            cost_suplimentar+=15*(cerere.getTrafic_Internet()-oferta.getTrafic_Internet())/100;
+    } //Calcul cost suplimentar lunar
+    /// Am folosit setteri privati pentru a limita accesul la datele clientului
 
 public:
 
@@ -40,6 +69,15 @@ public:
     factura(){std::cout<<"Constructor factura"<<std::endl;}
     factura ( const abonament &cerere, const abonament &oferta):
     cerere(cerere), oferta(oferta) {std::cout<<"Constructor factura parametrizat"<<std::endl;}//Constructor cu parametrii
+
+    void setPreturi()
+    {
+        pret_abonament.setPret_Abonament();
+        cost_suplimentar.setCost_Suplimentar();
+        pret_total.setPret_Total();
+    } // Functie care apeleaza setteri
+
+
 
     factura(const factura& copie)
     {
@@ -51,37 +89,12 @@ public:
 
     }
 
-    void setPret_Abonament( const abonament oferta)
-    {
-        pret_abonament=20*(oferta.getMinute_Internationale()/1000)+25*(oferta.getMinute_Nationale()/100)+
-                25*(oferta.getTrafic_Internet()/1000);
-    } //Setare pret contract
-
-    void setPret_Total()
-    {
-        if (cost_suplimentar==0)
-            pret_total=pret_abonament;
-        else
-            pret_total=pret_abonament+cost_suplimentar;
-    } //Calculare plata lunara
-
-    void setCost_Suplimentar( const abonament cerere,const  abonament oferta)
-    {
-        cost_suplimentar=0;
-        if(cerere.getMinute_Internationale()>oferta.getMinute_Internationale())
-            cost_suplimentar+=10*(cerere.getMinute_Internationale()-oferta.getMinute_Internationale())/1000;
-        if (cerere.getMinute_Nationale()>oferta.getMinute_Nationale())
-            cost_suplimentar+=15*(cerere.getMinute_Nationale()-oferta.getMinute_Nationale())/100;
-        if (cerere.getTrafic_Internet()>oferta.getTrafic_Internet())
-            cost_suplimentar+=15*(cerere.getTrafic_Internet()-oferta.getTrafic_Internet())/100;
-    } //Calcul cost suplimentar lunar
-
-
+    float getCost_abonament()const{return pret_abonament;}
     float getCost_Suplimentar()const{return cost_suplimentar;}
     float getCost_total()const{return pret_total;}
 
-   // friend std::istream& operator>>(std::istream&, factura&);
-    friend std::ostream& operator<<(std::ostream&, factura&); //supracincarcarea opertaorului <<
+   // friend std::istream& operator>>(std::istream&, const factura&);
+    friend std::ostream& operator<<(std::ostream&, const factura&); //supracincarcarea opertaorului <<
 
     ~factura(){std::cout<<"Destructor factura"<<std::endl;}
 };
