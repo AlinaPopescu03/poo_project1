@@ -1,135 +1,143 @@
 #include <iostream>
 
+#include<vector>
 
-class Client {
+class abonament{
+
 private:
-    int id;
-    int varsta;
+    float minute_nationale;
+    float minute_internationale;
+    float trafic_internet;
+
+public:
+    abonament(){}
+    abonament(float minute_nationale, float  minute_internationale, float trafic_internet):
+    minute_internationale(minute_internationale), minute_nationale(minute_nationale), trafic_internet(trafic_internet)
+    {std::cout<<"Constructor abonament parametrizat"<<std::endl;}
+    // Constructor cu parametrii
+
+    float getMinute_Nationale() const{return minute_nationale;}
+    float getMinute_Internationale() const {return minute_internationale;}
+    float getTrafic_Internet() const {return trafic_internet;}
+    //functii care returneaza variabilele private din clasa
+
+    ~abonament(){std::cout<<"Destructor abonament"<<std::endl;}
+
+};
+
+class factura{
+
+private:
+    float pret_abonament;
+    float cost_suplimentar;
+    float pret_total;
+    abonament cerere;
+    abonament oferta;
+
+public:
+
+
+    factura(){std::cout<<"Constructor factura"<<std::endl;}
+    factura ( const abonament &cerere, const abonament &oferta):
+    cerere(cerere), oferta(oferta) {std::cout<<"Constructor factura parametrizat"<<std::endl;}//Constructor cu parametrii
+
+    factura(const factura& copie)
+    {
+        this->pret_abonament=copie.pret_abonament;
+        this->cost_suplimentar=copie.cost_suplimentar;
+        this->pret_total=copie.pret_total;
+        this->oferta=copie.oferta;
+        this->cerere=copie.cerere;
+
+    }
+
+    void setPret_Abonament( const abonament oferta)
+    {
+        pret_abonament=20*(oferta.getMinute_Internationale()/1000)+25*(oferta.getMinute_Nationale()/100)+
+                25*(oferta.getTrafic_Internet()/1000);
+    } //Setare pret contract
+
+    void setPret_Total()
+    {
+        if (cost_suplimentar==0)
+            pret_total=pret_abonament;
+        else
+            pret_total=pret_abonament+cost_suplimentar;
+    } //Calculare plata lunara
+
+    void setCost_Suplimentar( const abonament cerere,const  abonament oferta)
+    {
+        cost_suplimentar=0;
+        if(cerere.getMinute_Internationale()>oferta.getMinute_Internationale())
+            cost_suplimentar+=10*(cerere.getMinute_Internationale()-oferta.getMinute_Internationale())/1000;
+        if (cerere.getMinute_Nationale()>oferta.getMinute_Nationale())
+            cost_suplimentar+=15*(cerere.getMinute_Nationale()-oferta.getMinute_Nationale())/100;
+        if (cerere.getTrafic_Internet()>oferta.getTrafic_Internet())
+            cost_suplimentar+=15*(cerere.getTrafic_Internet()-oferta.getTrafic_Internet())/100;
+    } //Calcul cost suplimentar lunar
+
+
+    float getCost_Suplimentar()const{return cost_suplimentar;}
+    float getCost_total()const{return pret_total;}
+
+   // friend std::istream& operator>>(std::istream&, factura&);
+    friend std::ostream& operator<<(std::ostream&, factura&); //supracincarcarea opertaorului <<
+
+    ~factura(){std::cout<<"Destructor factura"<<std::endl;}
+};
+
+
+std::ostream& operator<<(std::ostream& out, factura& fac)
+{
+    out<<fac.cost_suplimentar<<std::endl;
+    return out;
+}
+
+
+class client{
+private:
     std::string nume;
     std::string prenume;
     std::string cnp;
-    std::string data_nasterii;
+    float achitat;
+    float restant;
+    factura* facturi;
+
 public:
-    Client(){} // constructor
-    Client(int id, int varsta, const std::string &nume, const std::string &prenume,const std::string &cnp, const std::string &data_nasterii) {
-        this->id = id;
-        this->varsta = varsta;
-        this->nume = nume;
-        this->prenume = prenume;
-        this->cnp = cnp;
-        this->data_nasterii = data_nasterii;
-    }//constructor cu parametrii
-    ~Client(){ std::cout<<"destructor"<<std::endl;} //destructor
+    client(){std::cout<<"Constructor client"<<std::endl;}
+   /* client(std::string &nume, std::string &prenume,  std::string &cnp, factura &facturi):
+    nume(nume), prenume(prenume), cnp(cnp), facturi(facturi){} // Constructor cu parametrii*/
 
-    Client(const Client &copie) {
-        this->id = copie.id;
-        this->varsta = copie.varsta;
-        this->nume = copie.nume;
-        this->prenume = copie.prenume;
-        this->cnp = copie.cnp;
-        this->data_nasterii = copie.data_nasterii;
-
-    } //constructor de copiere
-
-    Client &operator=(const Client &copie) {
-        this->id = copie.id;
-        this->nume = copie.nume;
-        this->prenume = copie.prenume;
-        this->varsta = copie.varsta;
-        this->data_nasterii = copie.data_nasterii;
-        this->cnp = copie.cnp;
-        return *this;
-
-    }//operator =
-
-    friend std::ostream &operator<<(std::ostream &os, const Client &client) {
-        os << "ID-ul clientului este " << client.id << std::endl;
-        os << "Numele clientului este " << client.nume << std::endl;
-        os << "Prenumele clientului este " << client.prenume << std::endl;
-        os << "Varsta clientului este " << client.varsta << std::endl;
-        os << "CNP-ul clientului este " << client.cnp << std::endl;
-        os << "Data de nastere a  clientului este " << client.data_nasterii << std::endl;
-        return os;
-
-    } //Operatorul de afisare
-
-    void setnume(const std::string &nume){
-        this->nume=nume;    }
-
-};
-
-    void h(Client *p, std::string nume_) // moodificare nume
-    {p->setnume(nume_);}
-
-    void afis(Client c){
-        std::cout<<c<<std::endl;
-    }//functie pentru a afisa datele unui client
+    client(std::string nume = "", std::string prenume = "",  std::string cnp = "", float achitat=0, factura* facturi = new factura):
+            nume(nume), prenume(prenume), cnp(cnp),achitat(achitat),  facturi(facturi){std::cout<<"Constructor client  param"<<std::endl;} // Constructor cu parametrii
 
 
-class Abonament{
-    private:
-    std::string nume_abonament;
-    float pret;
-    float durata; // se masoara in ani, nu nr intreg in unele cazuri
+    void setRestant(factura& facturi)
+    {
+        if (achitat!=facturi.getCost_total())
+            restant=facturi.getCost_total()-achitat; // poate sa fie si negativ si fie scazut din urmatoarea factura
 
-    public:
-    Abonament(const std::string &nume_abonament, float pret, float durata):nume_abonament(nume_abonament), pret(pret), durata(durata) {
     }
+    float getRestanta()const{return restant;}
 
-    Abonament (const Abonament &copie){
-        this->durata=copie.durata;
-        this->nume_abonament=copie.nume_abonament;
-        this->pret=copie.pret;
-    } //const de copiere
+    client (const client& copie):
+    nume(copie.nume), prenume(copie.prenume), cnp(copie.cnp){}
 
-    Abonament &operator=(const Abonament &copie){
-        this->durata=copie.durata;
-        this->nume_abonament=copie.nume_abonament;
-        this->pret=copie.pret;
-        return *this;
-    } //operator =
-
-    friend std::ostream &operator<<(std::ostream &os, const Abonament &abonament) {
-        os<<"Numele abonamentului este "<< abonament.nume_abonament << std::endl;
-        os<<"Pretul abonamentului este "<< abonament.pret << std::endl;
-        os<<"Durata abonamentului este de"<< abonament.durata <<" ani"<< std::endl;
-        return os;
-    }
-
-
-
-    ~Abonament(){} ; //destructor
-
+    ~client(){std::cout<<"Destructor client"<<std::endl;} // Destructor
 };
-
-class Abonament_Premium:public Abonament{
-    int reducere;
-    bool premiu;
-    int puncte_loialitate;
-public:
-   // Abonament_Premium();
-    //~Abonament_Premium(){};
-    //functii in lucru
-    //void calcul_reducere();
-    //void este_premium();
-    //void calcul_puncte_loialitate();
-};
-
-void afis_abonament(Abonament a){
-    std::cout<<a<<std::endl;
-}//functie pentru a afisa datele despre un abonament
 
 
 
 int main() {
-   Client c1(7, 20, "Antonescu", "Lucian","43575594675876", "10.10.200" );
-   Client c3=c1;
-   //Client c4();
-   afis(c1);
-   //afis(c3); am verificat daca operatorul = functioneaza
+   abonament a1{100, 1000, 500};
+   abonament a2{150, 700, 501};
+   //factura f1{{a1}, {a2}};
+   factura* f1 = new factura(a1,a2);
+   f1->setCost_Suplimentar(a1, a2);
+   std::cout<<f1->getCost_Suplimentar()<<std::endl;
 
-   Abonament a1("red", 128, 2);
-    afis_abonament(a1);
+   //factura f2({a1}, {a2});
+   client c1("Dobre", "Pavel", "5759385098524",100, f1);
 
 
 }
