@@ -1,10 +1,10 @@
 #ifndef POO_ABONAMENT_H
 #define POO_ABONAMENT_H
 #include<iostream>
-#include"../Printare.h"
+#include"Printare.h"
 
 
-class abonament : public Printare{
+class abonament : virtual public Printare{
 protected:
     float minute_nationale;
     float minute_internationale;
@@ -25,7 +25,7 @@ public:
     float getTrafic_Internet()const;
     //functii care returneaza variabilele private din clasa
 
-    virtual ~abonament();
+    virtual ~abonament()=default;
 
 
 };

@@ -1,7 +1,7 @@
 #ifndef POO_FACTURA_H
 #define POO_FACTURA_H
 #include"abonament.h"
-#include"../Printare.h"
+#include"Printare.h"
 
 class factura :public Printare{
 protected:
@@ -13,7 +13,7 @@ protected:
 
     void setPret_Abonament();
     void setPret_Total();
-    void setCost_Suplimentar();
+    virtual void setCost_Suplimentar();
 public:
 
 
@@ -22,8 +22,8 @@ public:
     factura operator=(const factura &copie);
     factura(const factura& copie);
     float getCost_abonament()const;
-    float getCost_Suplimentar()const;
-    float getCost_total()const;
+     float getCost_Suplimentar()const;
+     float getCost_total()const;
     // friend std::istream& operator>>(std::istream&, const factura&);
     //friend std::ostream& operator<<(std::ostream&, const factura&); //supracincarcarea opertaorului <<
     virtual ~factura()=default;

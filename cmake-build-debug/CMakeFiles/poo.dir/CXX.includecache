@@ -6,27 +6,21 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Alina/Desktop/poo v2/Printare.h
-iostream
--
-
-C:/Users/Alina/Desktop/poo v2/factura_angajati.cpp
-factura_angajati.h
-C:/Users/Alina/Desktop/poo v2/factura_angajati.h
-
-C:/Users/Alina/Desktop/poo v2/factura_angajati.h
-headers/factura.h
-C:/Users/Alina/Desktop/poo v2/headers/factura.h
-
-C:/Users/Alina/Desktop/poo v2/headers/abonament.h
-iostream
--
-../Printare.h
-C:/Users/Alina/Desktop/poo v2/Printare.h
-
-C:/Users/Alina/Desktop/poo v2/headers/factura.h
+C:/Users/Alina/Desktop/poo v2/headers/Abonament_Premiu.h
 abonament.h
 C:/Users/Alina/Desktop/poo v2/headers/abonament.h
-../Printare.h
-C:/Users/Alina/Desktop/poo v2/Printare.h
+
+C:/Users/Alina/Desktop/poo v2/headers/Printare.h
+iostream
+-
+
+C:/Users/Alina/Desktop/poo v2/headers/abonament.h
+iostream
+-
+Printare.h
+C:/Users/Alina/Desktop/poo v2/headers/Printare.h
+
+C:/Users/Alina/Desktop/poo v2/sources/Abonament_Premiu.cpp
+../headers/Abonament_Premiu.h
+C:/Users/Alina/Desktop/poo v2/headers/Abonament_Premiu.h
 

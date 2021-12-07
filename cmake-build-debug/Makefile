@@ -128,30 +128,6 @@ poo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/build
 .PHONY : poo/fast
 
-Abonament_Premiu.obj: Abonament_Premiu.cpp.obj
-.PHONY : Abonament_Premiu.obj
-
-# target to build an object file
-Abonament_Premiu.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/Abonament_Premiu.cpp.obj
-.PHONY : Abonament_Premiu.cpp.obj
-
-Abonament_Premiu.i: Abonament_Premiu.cpp.i
-.PHONY : Abonament_Premiu.i
-
-# target to preprocess a source file
-Abonament_Premiu.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/Abonament_Premiu.cpp.i
-.PHONY : Abonament_Premiu.cpp.i
-
-Abonament_Premiu.s: Abonament_Premiu.cpp.s
-.PHONY : Abonament_Premiu.s
-
-# target to generate assembly for a file
-Abonament_Premiu.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/Abonament_Premiu.cpp.s
-.PHONY : Abonament_Premiu.cpp.s
-
 Citire.obj: Citire.cpp.obj
 .PHONY : Citire.obj
 
@@ -175,78 +151,6 @@ Citire.s: Citire.cpp.s
 Citire.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/Citire.cpp.s
 .PHONY : Citire.cpp.s
-
-Printare.obj: Printare.cpp.obj
-.PHONY : Printare.obj
-
-# target to build an object file
-Printare.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/Printare.cpp.obj
-.PHONY : Printare.cpp.obj
-
-Printare.i: Printare.cpp.i
-.PHONY : Printare.i
-
-# target to preprocess a source file
-Printare.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/Printare.cpp.i
-.PHONY : Printare.cpp.i
-
-Printare.s: Printare.cpp.s
-.PHONY : Printare.s
-
-# target to generate assembly for a file
-Printare.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/Printare.cpp.s
-.PHONY : Printare.cpp.s
-
-abonament_angajati.obj: abonament_angajati.cpp.obj
-.PHONY : abonament_angajati.obj
-
-# target to build an object file
-abonament_angajati.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/abonament_angajati.cpp.obj
-.PHONY : abonament_angajati.cpp.obj
-
-abonament_angajati.i: abonament_angajati.cpp.i
-.PHONY : abonament_angajati.i
-
-# target to preprocess a source file
-abonament_angajati.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/abonament_angajati.cpp.i
-.PHONY : abonament_angajati.cpp.i
-
-abonament_angajati.s: abonament_angajati.cpp.s
-.PHONY : abonament_angajati.s
-
-# target to generate assembly for a file
-abonament_angajati.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/abonament_angajati.cpp.s
-.PHONY : abonament_angajati.cpp.s
-
-factura_angajati.obj: factura_angajati.cpp.obj
-.PHONY : factura_angajati.obj
-
-# target to build an object file
-factura_angajati.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/factura_angajati.cpp.obj
-.PHONY : factura_angajati.cpp.obj
-
-factura_angajati.i: factura_angajati.cpp.i
-.PHONY : factura_angajati.i
-
-# target to preprocess a source file
-factura_angajati.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/factura_angajati.cpp.i
-.PHONY : factura_angajati.cpp.i
-
-factura_angajati.s: factura_angajati.cpp.s
-.PHONY : factura_angajati.s
-
-# target to generate assembly for a file
-factura_angajati.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/factura_angajati.cpp.s
-.PHONY : factura_angajati.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -272,6 +176,54 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sources/Abonament_Premiu.obj: sources/Abonament_Premiu.cpp.obj
+.PHONY : sources/Abonament_Premiu.obj
+
+# target to build an object file
+sources/Abonament_Premiu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/Abonament_Premiu.cpp.obj
+.PHONY : sources/Abonament_Premiu.cpp.obj
+
+sources/Abonament_Premiu.i: sources/Abonament_Premiu.cpp.i
+.PHONY : sources/Abonament_Premiu.i
+
+# target to preprocess a source file
+sources/Abonament_Premiu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/Abonament_Premiu.cpp.i
+.PHONY : sources/Abonament_Premiu.cpp.i
+
+sources/Abonament_Premiu.s: sources/Abonament_Premiu.cpp.s
+.PHONY : sources/Abonament_Premiu.s
+
+# target to generate assembly for a file
+sources/Abonament_Premiu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/Abonament_Premiu.cpp.s
+.PHONY : sources/Abonament_Premiu.cpp.s
+
+sources/Printare.obj: sources/Printare.cpp.obj
+.PHONY : sources/Printare.obj
+
+# target to build an object file
+sources/Printare.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/Printare.cpp.obj
+.PHONY : sources/Printare.cpp.obj
+
+sources/Printare.i: sources/Printare.cpp.i
+.PHONY : sources/Printare.i
+
+# target to preprocess a source file
+sources/Printare.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/Printare.cpp.i
+.PHONY : sources/Printare.cpp.i
+
+sources/Printare.s: sources/Printare.cpp.s
+.PHONY : sources/Printare.s
+
+# target to generate assembly for a file
+sources/Printare.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/Printare.cpp.s
+.PHONY : sources/Printare.cpp.s
+
 sources/abonament.obj: sources/abonament.cpp.obj
 .PHONY : sources/abonament.obj
 
@@ -295,6 +247,30 @@ sources/abonament.s: sources/abonament.cpp.s
 sources/abonament.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/abonament.cpp.s
 .PHONY : sources/abonament.cpp.s
+
+sources/abonament_angajati.obj: sources/abonament_angajati.cpp.obj
+.PHONY : sources/abonament_angajati.obj
+
+# target to build an object file
+sources/abonament_angajati.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/abonament_angajati.cpp.obj
+.PHONY : sources/abonament_angajati.cpp.obj
+
+sources/abonament_angajati.i: sources/abonament_angajati.cpp.i
+.PHONY : sources/abonament_angajati.i
+
+# target to preprocess a source file
+sources/abonament_angajati.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/abonament_angajati.cpp.i
+.PHONY : sources/abonament_angajati.cpp.i
+
+sources/abonament_angajati.s: sources/abonament_angajati.cpp.s
+.PHONY : sources/abonament_angajati.s
+
+# target to generate assembly for a file
+sources/abonament_angajati.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/abonament_angajati.cpp.s
+.PHONY : sources/abonament_angajati.cpp.s
 
 sources/client.obj: sources/client.cpp.obj
 .PHONY : sources/client.obj
@@ -320,6 +296,30 @@ sources/client.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/client.cpp.s
 .PHONY : sources/client.cpp.s
 
+sources/eroare_date.obj: sources/eroare_date.cpp.obj
+.PHONY : sources/eroare_date.obj
+
+# target to build an object file
+sources/eroare_date.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/eroare_date.cpp.obj
+.PHONY : sources/eroare_date.cpp.obj
+
+sources/eroare_date.i: sources/eroare_date.cpp.i
+.PHONY : sources/eroare_date.i
+
+# target to preprocess a source file
+sources/eroare_date.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/eroare_date.cpp.i
+.PHONY : sources/eroare_date.cpp.i
+
+sources/eroare_date.s: sources/eroare_date.cpp.s
+.PHONY : sources/eroare_date.s
+
+# target to generate assembly for a file
+sources/eroare_date.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/eroare_date.cpp.s
+.PHONY : sources/eroare_date.cpp.s
+
 sources/factura.obj: sources/factura.cpp.obj
 .PHONY : sources/factura.obj
 
@@ -344,6 +344,30 @@ sources/factura.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/factura.cpp.s
 .PHONY : sources/factura.cpp.s
 
+sources/factura_angajati.obj: sources/factura_angajati.cpp.obj
+.PHONY : sources/factura_angajati.obj
+
+# target to build an object file
+sources/factura_angajati.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/factura_angajati.cpp.obj
+.PHONY : sources/factura_angajati.cpp.obj
+
+sources/factura_angajati.i: sources/factura_angajati.cpp.i
+.PHONY : sources/factura_angajati.i
+
+# target to preprocess a source file
+sources/factura_angajati.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/factura_angajati.cpp.i
+.PHONY : sources/factura_angajati.cpp.i
+
+sources/factura_angajati.s: sources/factura_angajati.cpp.s
+.PHONY : sources/factura_angajati.s
+
+# target to generate assembly for a file
+sources/factura_angajati.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/factura_angajati.cpp.s
+.PHONY : sources/factura_angajati.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -353,33 +377,36 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... poo
-	@echo ... Abonament_Premiu.obj
-	@echo ... Abonament_Premiu.i
-	@echo ... Abonament_Premiu.s
 	@echo ... Citire.obj
 	@echo ... Citire.i
 	@echo ... Citire.s
-	@echo ... Printare.obj
-	@echo ... Printare.i
-	@echo ... Printare.s
-	@echo ... abonament_angajati.obj
-	@echo ... abonament_angajati.i
-	@echo ... abonament_angajati.s
-	@echo ... factura_angajati.obj
-	@echo ... factura_angajati.i
-	@echo ... factura_angajati.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... sources/Abonament_Premiu.obj
+	@echo ... sources/Abonament_Premiu.i
+	@echo ... sources/Abonament_Premiu.s
+	@echo ... sources/Printare.obj
+	@echo ... sources/Printare.i
+	@echo ... sources/Printare.s
 	@echo ... sources/abonament.obj
 	@echo ... sources/abonament.i
 	@echo ... sources/abonament.s
+	@echo ... sources/abonament_angajati.obj
+	@echo ... sources/abonament_angajati.i
+	@echo ... sources/abonament_angajati.s
 	@echo ... sources/client.obj
 	@echo ... sources/client.i
 	@echo ... sources/client.s
+	@echo ... sources/eroare_date.obj
+	@echo ... sources/eroare_date.i
+	@echo ... sources/eroare_date.s
 	@echo ... sources/factura.obj
 	@echo ... sources/factura.i
 	@echo ... sources/factura.s
+	@echo ... sources/factura_angajati.obj
+	@echo ... sources/factura_angajati.i
+	@echo ... sources/factura_angajati.s
 .PHONY : help
 
 
