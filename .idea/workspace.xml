@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="poo" targetName="poo" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7002c5c5-7692-4493-8248-a91ca8f7a955" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/Desktop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/.idea/Invatat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/C++/Cap 7/ducoffe/ducoffe.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/C++/Cap 7/ducoffe/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/C++/Cap 7/seminar/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/C++/Cap 7/seminar/seminar.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/C++/Supracincarcare operatori/Supracincarcare operatori.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/C++/Supracincarcare operatori/bin/Debug/Supracincarcare operatori.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/C++/Supracincarcare operatori/obj/Debug/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/C++/clrscr/bin/Debug/clrscr.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/C++/clrscr/clrscr.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/C++/clrscr/clrscr.depend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/C++/clrscr/clrscr.layout" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/C++/clrscr/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/C++/clrscr/obj/Debug/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/C++/curs 5/bin/Debug/curs 5.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/C++/curs 5/obj/Debug/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/C++/laborator 5/bin/Debug/laborator 5.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/C++/laborator 5/laborator 5.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/C++/laborator 5/laborator 5.layout" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/C++/laborator 5/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/C++/laborator 5/obj/Debug/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/C++/supraincarcare dinamica/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/C++/supraincarcare dinamica/supraincarcare dinamica.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/.idea/dinamic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/3.20.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/3.20.2/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/3.20.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/dinamic.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/dinamic.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/dinamic.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/dinamic.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/dinamic.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/dinamic.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/dinamic.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/dinamic.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/dinamic.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/dinamic.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/dinamic.dir/objects.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/dinamic.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/dinamic.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/dinamic.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/cmake-build-debug/dinamic.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/dinamic/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Invatat/pong-plus-plus-main/.idea/pong-plus-plus-main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section15/Challenge/Checking_Account.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section15/Challenge/Checking_Account.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section15/Challenge/Trust_Account.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section15/Challenge/Trust_Account.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section16/Challenge/I_Printable.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section16/Challenge/I_Printable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section16/ChallengeSolution-Part2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/Challenge/.idea/Challenge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/Challenge/movie.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/Challenge/movie.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/Challenge/movies.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/Challenge/movies.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/Move constructor/.idea/Move constructor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/accounts/.idea/Udemy c++.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/accounts/player/.idea/player.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/challenge overloading/.idea/challenge overloading.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/challenge overloading/challenge.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/challenge overloading/challenge.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/inheritance/Account.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/inheritance/Account.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/inheritance/Account_Util.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/inheritance/Account_util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/inheritance/Savings_Account.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/inheritance/Savings_Account.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/overloading operators/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/overloading operators/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/overloading operators/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/overloading operators/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/overloading operators/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/player/.idea/player.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/untitled/.idea/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/untitled/Account.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/untitled/Account.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/untitled/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/untitled/Savings_Account.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/untitled/Savings_Account.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy c++/untitled/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newlabchirosca/.idea/newlabchirosca.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abonament_Premiu.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abonament_Premiu.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Citire.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Citire.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Printare.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Printare.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abonament_angajati.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abonament_angajati.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factura_angajati.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factura_angajati.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo/.idea/poo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo/Printare.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo/Printare.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/HW1.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/HW2.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/HW3.rar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Udemy c++/overloading operators/Mystring.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Udemy c++/overloading operators/Mystring.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Udemy c++/overloading operators/Mystring.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Udemy c++/overloading operators/Mystring.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/headers/client.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/headers/factura.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/headers/abonament.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CMakeLists.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sources/factura.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sources/client.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sources/abonament.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/main.cpp" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="21CrnUJbfQHKHkROUmHYOcNixyX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="poo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="poo" TARGET_NAME="poo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="poo" RUN_TARGET_NAME="poo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7002c5c5-7692-4493-8248-a91ca8f7a955" name="Changes" comment="" />
+      <created>1637456076808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637456076808</updated>
+      <workItem from="1637456080117" duration="8116000" />
+      <workItem from="1637467604047" duration="21000" />
+      <workItem from="1637467652410" duration="38000" />
+      <workItem from="1637497573076" duration="5470000" />
+      <workItem from="1637503360811" duration="299000" />
+      <workItem from="1637503718088" duration="1000" />
+      <workItem from="1637503900602" duration="231000" />
+      <workItem from="1637504241372" duration="1168000" />
+      <workItem from="1637665887412" duration="636000" />
+      <workItem from="1638621207853" duration="1742000" />
+      <workItem from="1638625664036" duration="5945000" />
+      <workItem from="1638647050581" duration="769000" />
+      <workItem from="1638654534924" duration="809000" />
+      <workItem from="1638692211389" duration="1881000" />
+      <workItem from="1638694551146" duration="1117000" />
+      <workItem from="1638786845998" duration="114000" />
+      <workItem from="1638888174614" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
