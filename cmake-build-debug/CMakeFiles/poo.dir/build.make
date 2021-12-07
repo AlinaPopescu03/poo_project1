@@ -117,18 +117,18 @@ CMakeFiles/poo.dir/sources/client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/poo.dir/sources/client.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alina\Desktop\poo v2\sources\client.cpp" -o CMakeFiles\poo.dir\sources\client.cpp.s
 
-CMakeFiles/poo.dir/Printare.cpp.obj: CMakeFiles/poo.dir/flags.make
-CMakeFiles/poo.dir/Printare.cpp.obj: ../Printare.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Alina\Desktop\poo v2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/poo.dir/Printare.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\poo.dir\Printare.cpp.obj -c "C:\Users\Alina\Desktop\poo v2\Printare.cpp"
+CMakeFiles/poo.dir/sources/Printare.cpp.obj: CMakeFiles/poo.dir/flags.make
+CMakeFiles/poo.dir/sources/Printare.cpp.obj: ../sources/Printare.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Alina\Desktop\poo v2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/poo.dir/sources/Printare.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\poo.dir\sources\Printare.cpp.obj -c "C:\Users\Alina\Desktop\poo v2\sources\Printare.cpp"
 
-CMakeFiles/poo.dir/Printare.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/poo.dir/Printare.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alina\Desktop\poo v2\Printare.cpp" > CMakeFiles\poo.dir\Printare.cpp.i
+CMakeFiles/poo.dir/sources/Printare.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/poo.dir/sources/Printare.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alina\Desktop\poo v2\sources\Printare.cpp" > CMakeFiles\poo.dir\sources\Printare.cpp.i
 
-CMakeFiles/poo.dir/Printare.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/poo.dir/Printare.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alina\Desktop\poo v2\Printare.cpp" -o CMakeFiles\poo.dir\Printare.cpp.s
+CMakeFiles/poo.dir/sources/Printare.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/poo.dir/sources/Printare.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alina\Desktop\poo v2\sources\Printare.cpp" -o CMakeFiles\poo.dir\sources\Printare.cpp.s
 
 CMakeFiles/poo.dir/Citire.cpp.obj: CMakeFiles/poo.dir/flags.make
 CMakeFiles/poo.dir/Citire.cpp.obj: ../Citire.cpp
@@ -143,44 +143,57 @@ CMakeFiles/poo.dir/Citire.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/poo.dir/Citire.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alina\Desktop\poo v2\Citire.cpp" -o CMakeFiles\poo.dir\Citire.cpp.s
 
-CMakeFiles/poo.dir/Abonament_Premiu.cpp.obj: CMakeFiles/poo.dir/flags.make
-CMakeFiles/poo.dir/Abonament_Premiu.cpp.obj: ../Abonament_Premiu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Alina\Desktop\poo v2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/poo.dir/Abonament_Premiu.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\poo.dir\Abonament_Premiu.cpp.obj -c "C:\Users\Alina\Desktop\poo v2\Abonament_Premiu.cpp"
+CMakeFiles/poo.dir/sources/Abonament_Premiu.cpp.obj: CMakeFiles/poo.dir/flags.make
+CMakeFiles/poo.dir/sources/Abonament_Premiu.cpp.obj: ../sources/Abonament_Premiu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Alina\Desktop\poo v2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/poo.dir/sources/Abonament_Premiu.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\poo.dir\sources\Abonament_Premiu.cpp.obj -c "C:\Users\Alina\Desktop\poo v2\sources\Abonament_Premiu.cpp"
 
-CMakeFiles/poo.dir/Abonament_Premiu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/poo.dir/Abonament_Premiu.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alina\Desktop\poo v2\Abonament_Premiu.cpp" > CMakeFiles\poo.dir\Abonament_Premiu.cpp.i
+CMakeFiles/poo.dir/sources/Abonament_Premiu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/poo.dir/sources/Abonament_Premiu.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alina\Desktop\poo v2\sources\Abonament_Premiu.cpp" > CMakeFiles\poo.dir\sources\Abonament_Premiu.cpp.i
 
-CMakeFiles/poo.dir/Abonament_Premiu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/poo.dir/Abonament_Premiu.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alina\Desktop\poo v2\Abonament_Premiu.cpp" -o CMakeFiles\poo.dir\Abonament_Premiu.cpp.s
+CMakeFiles/poo.dir/sources/Abonament_Premiu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/poo.dir/sources/Abonament_Premiu.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alina\Desktop\poo v2\sources\Abonament_Premiu.cpp" -o CMakeFiles\poo.dir\sources\Abonament_Premiu.cpp.s
 
-CMakeFiles/poo.dir/abonament_angajati.cpp.obj: CMakeFiles/poo.dir/flags.make
-CMakeFiles/poo.dir/abonament_angajati.cpp.obj: ../abonament_angajati.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Alina\Desktop\poo v2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/poo.dir/abonament_angajati.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\poo.dir\abonament_angajati.cpp.obj -c "C:\Users\Alina\Desktop\poo v2\abonament_angajati.cpp"
+CMakeFiles/poo.dir/sources/abonament_angajati.cpp.obj: CMakeFiles/poo.dir/flags.make
+CMakeFiles/poo.dir/sources/abonament_angajati.cpp.obj: ../sources/abonament_angajati.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Alina\Desktop\poo v2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/poo.dir/sources/abonament_angajati.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\poo.dir\sources\abonament_angajati.cpp.obj -c "C:\Users\Alina\Desktop\poo v2\sources\abonament_angajati.cpp"
 
-CMakeFiles/poo.dir/abonament_angajati.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/poo.dir/abonament_angajati.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alina\Desktop\poo v2\abonament_angajati.cpp" > CMakeFiles\poo.dir\abonament_angajati.cpp.i
+CMakeFiles/poo.dir/sources/abonament_angajati.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/poo.dir/sources/abonament_angajati.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alina\Desktop\poo v2\sources\abonament_angajati.cpp" > CMakeFiles\poo.dir\sources\abonament_angajati.cpp.i
 
-CMakeFiles/poo.dir/abonament_angajati.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/poo.dir/abonament_angajati.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alina\Desktop\poo v2\abonament_angajati.cpp" -o CMakeFiles\poo.dir\abonament_angajati.cpp.s
+CMakeFiles/poo.dir/sources/abonament_angajati.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/poo.dir/sources/abonament_angajati.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alina\Desktop\poo v2\sources\abonament_angajati.cpp" -o CMakeFiles\poo.dir\sources\abonament_angajati.cpp.s
 
-CMakeFiles/poo.dir/factura_angajati.cpp.obj: CMakeFiles/poo.dir/flags.make
-CMakeFiles/poo.dir/factura_angajati.cpp.obj: ../factura_angajati.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Alina\Desktop\poo v2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/poo.dir/factura_angajati.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\poo.dir\factura_angajati.cpp.obj -c "C:\Users\Alina\Desktop\poo v2\factura_angajati.cpp"
+CMakeFiles/poo.dir/sources/factura_angajati.cpp.obj: CMakeFiles/poo.dir/flags.make
+CMakeFiles/poo.dir/sources/factura_angajati.cpp.obj: ../sources/factura_angajati.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Alina\Desktop\poo v2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/poo.dir/sources/factura_angajati.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\poo.dir\sources\factura_angajati.cpp.obj -c "C:\Users\Alina\Desktop\poo v2\sources\factura_angajati.cpp"
 
-CMakeFiles/poo.dir/factura_angajati.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/poo.dir/factura_angajati.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alina\Desktop\poo v2\factura_angajati.cpp" > CMakeFiles\poo.dir\factura_angajati.cpp.i
+CMakeFiles/poo.dir/sources/factura_angajati.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/poo.dir/sources/factura_angajati.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alina\Desktop\poo v2\sources\factura_angajati.cpp" > CMakeFiles\poo.dir\sources\factura_angajati.cpp.i
 
-CMakeFiles/poo.dir/factura_angajati.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/poo.dir/factura_angajati.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alina\Desktop\poo v2\factura_angajati.cpp" -o CMakeFiles\poo.dir\factura_angajati.cpp.s
+CMakeFiles/poo.dir/sources/factura_angajati.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/poo.dir/sources/factura_angajati.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alina\Desktop\poo v2\sources\factura_angajati.cpp" -o CMakeFiles\poo.dir\sources\factura_angajati.cpp.s
+
+CMakeFiles/poo.dir/sources/eroare_date.cpp.obj: CMakeFiles/poo.dir/flags.make
+CMakeFiles/poo.dir/sources/eroare_date.cpp.obj: ../sources/eroare_date.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Alina\Desktop\poo v2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/poo.dir/sources/eroare_date.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\poo.dir\sources\eroare_date.cpp.obj -c "C:\Users\Alina\Desktop\poo v2\sources\eroare_date.cpp"
+
+CMakeFiles/poo.dir/sources/eroare_date.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/poo.dir/sources/eroare_date.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alina\Desktop\poo v2\sources\eroare_date.cpp" > CMakeFiles\poo.dir\sources\eroare_date.cpp.i
+
+CMakeFiles/poo.dir/sources/eroare_date.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/poo.dir/sources/eroare_date.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alina\Desktop\poo v2\sources\eroare_date.cpp" -o CMakeFiles\poo.dir\sources\eroare_date.cpp.s
 
 # Object files for target poo
 poo_OBJECTS = \
@@ -188,11 +201,12 @@ poo_OBJECTS = \
 "CMakeFiles/poo.dir/sources/factura.cpp.obj" \
 "CMakeFiles/poo.dir/sources/abonament.cpp.obj" \
 "CMakeFiles/poo.dir/sources/client.cpp.obj" \
-"CMakeFiles/poo.dir/Printare.cpp.obj" \
+"CMakeFiles/poo.dir/sources/Printare.cpp.obj" \
 "CMakeFiles/poo.dir/Citire.cpp.obj" \
-"CMakeFiles/poo.dir/Abonament_Premiu.cpp.obj" \
-"CMakeFiles/poo.dir/abonament_angajati.cpp.obj" \
-"CMakeFiles/poo.dir/factura_angajati.cpp.obj"
+"CMakeFiles/poo.dir/sources/Abonament_Premiu.cpp.obj" \
+"CMakeFiles/poo.dir/sources/abonament_angajati.cpp.obj" \
+"CMakeFiles/poo.dir/sources/factura_angajati.cpp.obj" \
+"CMakeFiles/poo.dir/sources/eroare_date.cpp.obj"
 
 # External object files for target poo
 poo_EXTERNAL_OBJECTS =
@@ -201,16 +215,17 @@ poo.exe: CMakeFiles/poo.dir/main.cpp.obj
 poo.exe: CMakeFiles/poo.dir/sources/factura.cpp.obj
 poo.exe: CMakeFiles/poo.dir/sources/abonament.cpp.obj
 poo.exe: CMakeFiles/poo.dir/sources/client.cpp.obj
-poo.exe: CMakeFiles/poo.dir/Printare.cpp.obj
+poo.exe: CMakeFiles/poo.dir/sources/Printare.cpp.obj
 poo.exe: CMakeFiles/poo.dir/Citire.cpp.obj
-poo.exe: CMakeFiles/poo.dir/Abonament_Premiu.cpp.obj
-poo.exe: CMakeFiles/poo.dir/abonament_angajati.cpp.obj
-poo.exe: CMakeFiles/poo.dir/factura_angajati.cpp.obj
+poo.exe: CMakeFiles/poo.dir/sources/Abonament_Premiu.cpp.obj
+poo.exe: CMakeFiles/poo.dir/sources/abonament_angajati.cpp.obj
+poo.exe: CMakeFiles/poo.dir/sources/factura_angajati.cpp.obj
+poo.exe: CMakeFiles/poo.dir/sources/eroare_date.cpp.obj
 poo.exe: CMakeFiles/poo.dir/build.make
 poo.exe: CMakeFiles/poo.dir/linklibs.rsp
 poo.exe: CMakeFiles/poo.dir/objects1.rsp
 poo.exe: CMakeFiles/poo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Alina\Desktop\poo v2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable poo.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Alina\Desktop\poo v2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable poo.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\poo.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

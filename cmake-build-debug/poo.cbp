@@ -82,46 +82,52 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/Abonament_Premiu.cpp">
-			<Option target="poo"/>
-		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/Abonament_Premiu.h">
-			<Option target="poo"/>
-		</Unit>
 		<Unit filename="C:/Users/Alina/Desktop/poo v2/Citire.cpp">
 			<Option target="poo"/>
 		</Unit>
 		<Unit filename="C:/Users/Alina/Desktop/poo v2/Citire.h">
 			<Option target="poo"/>
 		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/Printare.cpp">
+		<Unit filename="C:/Users/Alina/Desktop/poo v2/headers/Abonament_Premiu.h">
 			<Option target="poo"/>
 		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/Printare.h">
+		<Unit filename="C:/Users/Alina/Desktop/poo v2/headers/Printare.h">
 			<Option target="poo"/>
 		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/abonament_angajati.cpp">
+		<Unit filename="C:/Users/Alina/Desktop/poo v2/headers/abonament_angajati.h">
 			<Option target="poo"/>
 		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/abonament_angajati.h">
+		<Unit filename="C:/Users/Alina/Desktop/poo v2/headers/eroare_date.h">
 			<Option target="poo"/>
 		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/factura_angajati.cpp">
-			<Option target="poo"/>
-		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/factura_angajati.h">
+		<Unit filename="C:/Users/Alina/Desktop/poo v2/headers/factura_angajati.h">
 			<Option target="poo"/>
 		</Unit>
 		<Unit filename="C:/Users/Alina/Desktop/poo v2/main.cpp">
 			<Option target="poo"/>
 		</Unit>
+		<Unit filename="C:/Users/Alina/Desktop/poo v2/sources/Abonament_Premiu.cpp">
+			<Option target="poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Alina/Desktop/poo v2/sources/Printare.cpp">
+			<Option target="poo"/>
+		</Unit>
 		<Unit filename="C:/Users/Alina/Desktop/poo v2/sources/abonament.cpp">
+			<Option target="poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Alina/Desktop/poo v2/sources/abonament_angajati.cpp">
 			<Option target="poo"/>
 		</Unit>
 		<Unit filename="C:/Users/Alina/Desktop/poo v2/sources/client.cpp">
 			<Option target="poo"/>
 		</Unit>
+		<Unit filename="C:/Users/Alina/Desktop/poo v2/sources/eroare_date.cpp">
+			<Option target="poo"/>
+		</Unit>
 		<Unit filename="C:/Users/Alina/Desktop/poo v2/sources/factura.cpp">
+			<Option target="poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Alina/Desktop/poo v2/sources/factura_angajati.cpp">
 			<Option target="poo"/>
 		</Unit>
 		<Unit filename="C:/Users/Alina/Desktop/poo v2/CMakeLists.txt">
