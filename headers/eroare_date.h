@@ -5,18 +5,18 @@
 #include <iostream>
 
 
-class eroare_cnp : public std::runtime_error{
+class eroare_aplicatie : public std::runtime_error{
 public:
-    eroare_cnp(const std::string &msj);
+    eroare_aplicatie(const std::string &msj);
 
 };
 
-class cnp_prea_scurt: public eroare_cnp{
+class cnp_prea_scurt: public eroare_aplicatie{
   public:
     cnp_prea_scurt();
 };
 
-class eroare_abonament: public eroare_cnp{
+class eroare_abonament: public eroare_aplicatie{
 public:
     eroare_abonament();
 };

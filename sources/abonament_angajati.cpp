@@ -9,13 +9,13 @@ abonament_angajati::abonament_angajati(float minute_nationale, float  minute_int
     return os;
 }
 void abonament_angajati::printare(std::ostream &os) const  {
-    os<<"Abonament angajati:"<<std::endl;
+    os<<"Abonament angajati:\n";
     abonament::printare(os);
 
 }
 
- std::shared_ptr<abonament> abonament_angajati::clone() const {
+ /*std::shared_ptr<abonament> abonament_angajati::clone() const {
     return std::make_shared<abonament_angajati> (*this);
-}
+}*/
 
 

@@ -8,7 +8,7 @@
 #include"headers/Abonament_Premiu.h"
 #include "headers/eroare_date.h"
 #include "headers/factura_angajati.h"
-#include "headers/Printare.h"
+
 
 int main() {
     /// Set de date tema 1

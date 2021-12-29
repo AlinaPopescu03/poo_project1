@@ -5,8 +5,8 @@
 
 abonament::abonament(float minute_nationale, float  minute_internationale, float trafic_internet)
     :minute_internationale(minute_internationale), minute_nationale(minute_nationale), trafic_internet(trafic_internet)
-{if (minute_nationale<0 || minute_internationale<0 || trafic_internet<0)
-    throw eroare_abonament();
+{   if (minute_nationale<0 || minute_internationale<0 || trafic_internet<0)
+        throw eroare_abonament();
     std::cout<<"Constructor abonament parametrizat"<<std::endl;}
 // Constructor cu parametrii
 

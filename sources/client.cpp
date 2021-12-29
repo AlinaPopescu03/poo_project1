@@ -6,8 +6,8 @@
 client::client(){std::cout<<"Constructor client"<<std::endl;}
 
 /// Consytructor parametrizat
-client::client(std::string nume1 , std::string prenume1,  std::string cnp1,float achitat, const std::shared_ptr<factura> &factura_ ):
-nume(nume1), prenume(prenume1), cnp(cnp1),achitat(achitat), factura_(factura_)
+client::client(std::string nume1 , std::string prenume1,  std::string cnp1,float achitat, const std::shared_ptr<factura> &factura_ )
+    :nume(nume1), prenume(prenume1), cnp(cnp1),achitat(achitat), factura_(factura_)
 {   setRestant();
     std::cout<<"Constructor client  param"<<std::endl;} // Constructor cu parametrii
 
@@ -23,6 +23,20 @@ void client::setRestant()
     }
 }
 
+
+std::ostream &operator<<(std::ostream &os, const client &client){
+    client.printare(os);
+    return os;
+
+}
+
+void client::printare(std::ostream &os)
+{
+    os<<"Numele cleintului: "<<nume;
+    os<<"Prenumele clientului: "<<prenume;
+    os<<"CNP-ul clientului: "<<cnp;
+    os<<std::endl;
+}
 bool client::getRestanta()const{return restant;}
 
 float client::getDiferenta() const {return diferenta;}
@@ -30,4 +44,4 @@ float client::getDiferenta() const {return diferenta;}
 client::client (const client& copie):
         nume(copie.nume), prenume(copie.prenume), cnp(copie.cnp) {std::cout<<"Copie informatii client"<<std::endl;}
 
-client::~client(){std::cout<<"Destructor client"<<std::endl;} // Destructor
+//client::~client(){std::cout<<"Destructor client"<<std::endl;} // Destructor

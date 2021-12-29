@@ -2,15 +2,16 @@
 #define POO_FACTURA_H
 #include"abonament.h"
 #include"Printare.h"
+#include<memory>
 
 class factura :public Printare{
 protected:
     float pret_abonament;
     float cost_suplimentar;
     float pret_total;
-    abonament cerere;
-    abonament oferta;
-
+    std::shared_ptr<abonament> cerere;
+    srd::shared_ptr<abonament> oferta;
+    virtual void printare(std::ostream &os) const override;
     void setPret_Abonament();
     void setPret_Total();
     virtual void setCost_Suplimentar();
@@ -25,9 +26,9 @@ public:
      float getCost_Suplimentar()const;
      float getCost_total()const;
     // friend std::istream& operator>>(std::istream&, const factura&);
-    //friend std::ostream& operator<<(std::ostream&, const factura&); //supracincarcarea opertaorului <<
+    friend std::ostream& operator<<(std::ostream&, const factura&); //supracincarcarea opertaorului <<
     virtual ~factura()=default;
-    virtual void printare(std::ostream &os) const override;
+
 
 
 
