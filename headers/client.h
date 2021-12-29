@@ -23,13 +23,12 @@ public:
 
     client(std::string nume1 , std::string prenume1,  std::string cnp1,float achitat, const std::shared_ptr <factura> &factura_ );
 
-
     bool getRestanta()const;
     float getDiferenta()const;
 
     client (const client& copie);
 
-    ~client();
+    virtual ~client() = default;
 
 };
 

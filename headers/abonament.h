@@ -1,18 +1,20 @@
 #ifndef POO_ABONAMENT_H
 #define POO_ABONAMENT_H
 #include<iostream>
-#include"Printare.h"
+#include<memory>
 
-
-class abonament : virtual public Printare{
+class abonament {
 protected:
     float minute_nationale;
     float minute_internationale;
     float trafic_internet;
 
+    virtual void printare(std::ostream &os) const;
 public:
     abonament(){}
-    virtual void printare(std::ostream &os) const override;
+
+    friend std::ostream &operator<<(std::ostream &os, const abonament &ab);
+    //virtual std::shared_ptr<abonament> clone() const=0;
     abonament(float minute_nationale, float  minute_internationale, float trafic_internet);
     // Constructor cu parametrii
 

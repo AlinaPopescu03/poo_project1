@@ -4,11 +4,18 @@ abonament_angajati::abonament_angajati(float minute_nationale, float  minute_int
     :abonament(minute_nationale, minute_internationale, trafic_internet){
     std::cout<<"Constructor abonament angajat"<<std::endl;
 
+}std::ostream& operator<<(std::ostream &os, abonament_angajati &abonament ){
+    abonament.printare(os);
+    return os;
+}
+void abonament_angajati::printare(std::ostream &os) const  {
+    os<<"Abonament angajati:"<<std::endl;
+    abonament::printare(os);
+
 }
 
-void abonament_angajati::printare(std::ostream &os) const {
-    os.precision(2);
-    os<<std::fixed;
-    os<<"Abonamentul angajatului are: "<<minute_nationale<<" "<<" minute nationale, "<<minute_internationale<<
-    " minute internationale si "<<trafic_internet<<" trafic de internet."<<std::endl;
+ std::shared_ptr<abonament> abonament_angajati::clone() const {
+    return std::make_shared<abonament_angajati> (*this);
 }
+
+

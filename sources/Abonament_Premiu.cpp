@@ -7,9 +7,21 @@ Abonament_Premiu::Abonament_Premiu(float minute_nationale, float  minute_interna
     std::cout<<"Constructor pentru abonament premium"<<std::endl;
 
 }
+<<<<<<< HEAD
+
+
+std::ostream &operator<<(std::ostream &os, Abonament_Premiu &ab){
+    ab.printare(os);
+    return os;
+}
+
+
+ void Abonament_Premiu:: printare(std::ostream &os) const{
+=======
  void Abonament_Premiu:: printare(std::ostream &os) const{
     os.precision(2);
     os<<std::fixed;
+>>>>>>> origin/main
     os<<"Abonamentul premium ofera: "<<minute_nationale<<" "<<" minute nationale, "<<minute_internationale<<
       " minute internationale si "<<trafic_internet<<" trafic de internet."<<std::endl;
 
