@@ -17,13 +17,12 @@ protected:
     float diferenta{0};
     std::shared_ptr <factura> factura_;
     void setRestant();
-    void printare(std::ostream &os);
 
 public:
     client();
 
     client(std::string nume1 , std::string prenume1,  std::string cnp1,float achitat, const std::shared_ptr <factura> &factura_ );
-    friend std::ostream &operator<<(std::ostream &os, const client &client);
+
     bool getRestanta()const;
     float getDiferenta()const;
 

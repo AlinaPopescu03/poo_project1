@@ -3,12 +3,10 @@
 
 Abonament_Premiu::Abonament_Premiu(float minute_nationale, float  minute_internationale, float trafic_internet)
     :abonament(minute_nationale, minute_internationale, trafic_internet){
-
     setPuncteLoialitate();
     std::cout<<"Constructor pentru abonament premium"<<std::endl;
 
 }
-
 
 
 std::ostream &operator<<(std::ostream &os, Abonament_Premiu &ab){
@@ -18,7 +16,6 @@ std::ostream &operator<<(std::ostream &os, Abonament_Premiu &ab){
 
 
  void Abonament_Premiu:: printare(std::ostream &os) const{
-
     os<<"Abonamentul premium ofera: "<<minute_nationale<<" "<<" minute nationale, "<<minute_internationale<<
       " minute internationale si "<<trafic_internet<<" trafic de internet."<<std::endl;
 

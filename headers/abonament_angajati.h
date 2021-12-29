@@ -10,7 +10,7 @@ private:
 public:
     abonament_angajati(float minute_nationale, float  minute_internationale, float trafic_internet);
     friend std::ostream& operator<<(std::ostream &os, abonament_angajati &abonament );
-    //virtual std::shared_ptr<abonament> clone() const final;
+    virtual std::shared_ptr<abonament> clone() const final;
     virtual ~abonament_angajati()=default;
 };
 

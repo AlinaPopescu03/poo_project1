@@ -80,53 +80,72 @@ int main() {
     }
     std::cout<<"------------------------------"<<std::endl;
 */
+//////=========================================
+
 
     /// Set de date tema 2
 
-    //Abonament set1 -> eroare stabilire abonament
-    /*abonament *a1=new abonament{-100, 1000, 500};
+    ///Abonament set1 -> eroare stabilire abonament
+    /*
+    abonament *a1=new abonament{-100, 1000, 500};
     abonament a2{150, 700, 501};
 
     a1->ActualizareMinuteNationale(5000);
     std::cout<<a1;
     std::cout<<"------------------------------"<<std::endl;
+
 */
 
-    std::cout<<"------------------------------"<<std::endl;
+    ///Abonament
+    /*
+    std::cout << "------------------------------" << std::endl;
 
-    abonament a3{110, 1200, 400};
-    abonament a4{100, 100, 301};
+    std::shared_ptr<abonament> a3 = std::make_shared<abonament>(100, 1200, 400);
+    std::shared_ptr<abonament> a4 = std::make_shared<abonament>(100, 100, 301);
 
-    abonament *a=new Abonament_Premiu(2000, 4488, 89);
+    abonament *a = new Abonament_Premiu(2000, 4488, 89);
     delete a; //Eliberare memorie
-    std::cout<<"------------------------------"<<std::endl;
+    std::cout << "------------------------------" << std::endl;
 
     Abonament_Premiu a2{4000, 2000, 3000};
-    std::cout<<"Puncte loialitate "<<a2.get_PuncteLoialitate()<<std::endl;
-
-
+    std::cout << "Puncte loialitate " << a2.get_PuncteLoialitate() << std::endl;
+}
+*/
+    ///Factura
     // f1=f2, dar f1 costa mai mult decat f2
-    factura *f1=new factura_angajati{a3, a4};
+    /*std::shared_ptr<abonament> a3 = std::make_shared<abonament>(100, 1200, 400);
+    std::shared_ptr<abonament> a4 = std::make_shared<abonament>(100, 100, 301);
+    std::shared_ptr<factura> f1=std::make_shared<factura_angajati>(a3, a4);
     std::cout<<f1->getCost_abonament()<<std::endl;
     std::cout<<f1->getCost_Suplimentar()<<std::endl;
     std::cout<<f1->getCost_total()<<std::endl;
     std::cout<<"------------------------------"<<std::endl;
-    delete f1;
+
+
 
     factura f2{a3, a4};
     std::cout<<f2.getCost_abonament()<<std::endl;
     std::cout<<f2.getCost_Suplimentar()<<std::endl;
     std::cout<<f2.getCost_total()<<std::endl;
-    std::cout<<"------------------------------"<<std::endl;
-
-    //
+    std::cout<<"------------------------------"<<std::endl;*/
 
 
+    /// CLIENT
+   // Eroare lungime CNP
+   // client c1{"Marian", "Preda", "14759402304", 100, f1};
 
 
+   std::shared_ptr<abonament> a3 = std::make_shared<abonament>(100, 1200, 400);
+   std::shared_ptr<abonament> a4 = std::make_shared<abonament>(100, 100, 301);
+   std::shared_ptr<factura> f1=std::make_shared<factura_angajati>(a3, a4);
 
-
-
-
+   client c1{"Marian", "Preda", "1234567890123", 100, f1};
+   std::cout<<c1.getDiferenta();
+   std::cout<<c1.getRestanta();
 }
+
+
+
+
+
 

@@ -14,4 +14,3 @@ cnp_prea_scurt::cnp_prea_scurt()
 
 eroare_abonament::eroare_abonament()
     : eroare_aplicatie("Greseala stabilire abonament \n"){}
-

@@ -1,4 +1,4 @@
-"C:\Users\Alina\AppData\Local\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\Alina\Desktop\v2
+"C:\Users\Alina\AppData\Local\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\Alina\Desktop\v3
 -- The C compiler identification is GNU 11.2.0
 -- The CXX compiler identification is GNU 11.2.0
 -- Detecting C compiler ABI info
@@ -12,14 +12,5 @@
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Configuring done
-CMake Error at CMakeLists.txt:6 (add_executable):
-  Cannot find source file:
-
-    Citire.cpp
-
-
-CMake Error at CMakeLists.txt:6 (add_executable):
-  No SOURCES given to target: poo
-
-
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Generating done
+-- Build files have been written to: C:/Users/Alina/Desktop/v3/cmake-build-debug

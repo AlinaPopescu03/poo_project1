@@ -5,11 +5,13 @@
 #include <iostream>
 
 
-class eroare_aplicatie : public std::runtime_error{
+
+class eroare_aplicatie: public std::runtime_error{
+
 public:
     eroare_aplicatie(const std::string &msj);
-
 };
+
 
 class cnp_prea_scurt: public eroare_aplicatie{
   public:

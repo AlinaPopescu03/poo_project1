@@ -1,29 +1,28 @@
 #include "../headers/factura_angajati.h"
 
-
- std::ostream &operator<<(std::ostream &os,const factura_angajati &factura){
+ std::ostream &operator<<(std::ostream &os, factura_angajati &factura){
     factura.printare(os);
     return os;
-
+}
 
 
  void factura_angajati::printare(std::ostream &os) const {
     os<<"Factura angajatului este:"<<std::endl;
     factura::printare(os);
 
-
 }
 //factura_angajati::factura_angajati(){}
 
 
 factura_angajati::factura_angajati(const std::shared_ptr<abonament> &cerere, const std::shared_ptr<abonament> &oferta)
-     :factura{cerere, oferta}
-     {
-         factura::setPret_Abonament();
-         factura::getCost_Suplimentar();
-         setCost_Total_Angajat();
-         std::cout<<"Constructor factura angajat\n";
-     }
+    :factura{cerere, oferta}{
+
+    factura::setPret_Abonament();
+    factura::getCost_Suplimentar();
+    factura::setPret_Total();
+    std::cout<<"Constructor factura angajat"<<std::endl;
+
+}
 
 void factura_angajati::setCost_Total_Angajat()
 {
