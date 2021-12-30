@@ -17,14 +17,11 @@
 factura_angajati::factura_angajati(const std::shared_ptr<abonament> &cerere, const std::shared_ptr<abonament> &oferta)
     :factura{cerere, oferta}{
 
-    factura::setPret_Abonament();
-    factura::getCost_Suplimentar();
-    factura::setPret_Total();
     std::cout<<"Constructor factura angajat"<<std::endl;
 
 }
 
-void factura_angajati::setCost_Total_Angajat()
+void factura_angajati::setPret_Total()
 {
     if (cost_suplimentar==0)
         pret_total=(1-discount)*pret_abonament;

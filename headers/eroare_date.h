@@ -12,6 +12,15 @@ public:
     eroare_aplicatie(const std::string &msj);
 };
 
+class eroare_tipuri_date:public eroare_aplicatie{
+public:
+    eroare_tipuri_date();
+};
+
+class cnp_invalid: public eroare_aplicatie{
+public:
+    cnp_invalid();
+};
 
 class cnp_prea_scurt: public eroare_aplicatie{
   public:

@@ -7,8 +7,8 @@ class factura_angajati:public factura {
 protected:
 
     static float constexpr discount=0.2;
-   void setCost_Total_Angajat();
-   virtual void printare(std::ostream &os) const final;
+    virtual void setPret_Total()override;
+   void printare(std::ostream &os) const override;
 
 public:
    friend std::ostream &operator<<(std::ostream &os, factura_angajati &factura);

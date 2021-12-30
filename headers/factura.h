@@ -2,6 +2,7 @@
 #define POO_FACTURA_H
 #include"abonament.h"
 #include<memory>
+#include"eroare_date.h"
 
 class factura {
 protected:
@@ -12,8 +13,8 @@ protected:
     std::shared_ptr<abonament> oferta;
 
     void setPret_Abonament();
-    void setPret_Total();
-    virtual void setCost_Suplimentar();
+    virtual void setPret_Total();
+    void setCost_Suplimentar();
 public:
 
 
@@ -24,7 +25,7 @@ public:
     float getCost_abonament()const;
      float getCost_Suplimentar()const;
      float getCost_total()const;
-     void printare(std::ostream &os)const;
+     virtual void printare(std::ostream &os)const;
     // friend std::istream& operator>>(std::istream&, const factura&);
     friend std::ostream& operator<<(std::ostream &os, const factura &factura); //supracincarcarea opertaorului <<
     virtual ~factura()=default;

@@ -1,10 +1,19 @@
 #include "../headers/factura.h"
 
 factura::factura ( const std::shared_ptr<abonament> &cerere, const std::shared_ptr<abonament> &oferta):cerere(cerere), oferta(oferta)
-{   setPret_Abonament();
+{  try{
+    typeid(*cerere).name() == typeid(*oferta).name();
+    throw eroare_tipuri_date();
+    }
+    catch(eroare_tipuri_date())
+        {std::cout<<"Introduceti date corecte\n";}
+
+    setPret_Abonament();
     setCost_Suplimentar();
     setPret_Total();
+
     std::cout<<"Constructor factura parametrizat"<<std::endl;}//Constructor cu parametrii
+
 
 void factura::setPret_Abonament()
 {
