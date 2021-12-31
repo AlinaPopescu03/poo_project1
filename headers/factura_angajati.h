@@ -7,7 +7,7 @@ class factura_angajati:public factura {
 protected:
 
     static float constexpr discount=0.2;
-    virtual void setPret_Total()override;
+    void setPret_Total_Angajat();
    void printare(std::ostream &os) const override;
 
 public:

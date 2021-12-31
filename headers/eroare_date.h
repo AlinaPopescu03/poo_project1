@@ -17,14 +17,14 @@ public:
     eroare_tipuri_date();
 };
 
-class cnp_invalid: public eroare_aplicatie{
+class eroare_cnp_invalid: public eroare_aplicatie{
 public:
-    cnp_invalid();
+    eroare_cnp_invalid();
 };
 
-class cnp_prea_scurt: public eroare_aplicatie{
+class eroare_cnp_prea_scurt: public eroare_aplicatie{
   public:
-    cnp_prea_scurt();
+    eroare_cnp_prea_scurt();
 };
 
 class eroare_abonament: public eroare_aplicatie{

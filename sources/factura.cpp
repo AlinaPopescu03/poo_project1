@@ -1,12 +1,7 @@
 #include "../headers/factura.h"
 
 factura::factura ( const std::shared_ptr<abonament> &cerere, const std::shared_ptr<abonament> &oferta):cerere(cerere), oferta(oferta)
-{  try{
-    typeid(*cerere).name() == typeid(*oferta).name();
-    throw eroare_tipuri_date();
-    }
-    catch(eroare_tipuri_date())
-        {std::cout<<"Introduceti date corecte\n";}
+{
 
     setPret_Abonament();
     setCost_Suplimentar();

@@ -6,21 +6,75 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Alina/Desktop/poo v2/headers/Abonament_Premiu.h
+C:/Users/Alina/Desktop/tema3/headers/Abonament_Premiu.h
 abonament.h
-C:/Users/Alina/Desktop/poo v2/headers/abonament.h
+C:/Users/Alina/Desktop/tema3/headers/abonament.h
 
-C:/Users/Alina/Desktop/poo v2/headers/Printare.h
+C:/Users/Alina/Desktop/tema3/headers/abonament.h
+iostream
+-
+memory
+-
+
+C:/Users/Alina/Desktop/tema3/headers/abonament_angajati.h
+abonament.h
+C:/Users/Alina/Desktop/tema3/headers/abonament.h
+memory
+-
+
+C:/Users/Alina/Desktop/tema3/headers/abonament_aniversar.h
 iostream
 -
 
-C:/Users/Alina/Desktop/poo v2/headers/abonament.h
+C:/Users/Alina/Desktop/tema3/headers/client.h
 iostream
 -
-Printare.h
-C:/Users/Alina/Desktop/poo v2/headers/Printare.h
+vector
+-
+factura.h
+C:/Users/Alina/Desktop/tema3/headers/factura.h
+memory
+-
 
-C:/Users/Alina/Desktop/poo v2/sources/Abonament_Premiu.cpp
-../headers/Abonament_Premiu.h
-C:/Users/Alina/Desktop/poo v2/headers/Abonament_Premiu.h
+C:/Users/Alina/Desktop/tema3/headers/eroare_date.h
+stdexcept
+-
+iostream
+-
+
+C:/Users/Alina/Desktop/tema3/headers/factura.h
+abonament.h
+C:/Users/Alina/Desktop/tema3/headers/abonament.h
+memory
+-
+eroare_date.h
+C:/Users/Alina/Desktop/tema3/headers/eroare_date.h
+
+C:/Users/Alina/Desktop/tema3/headers/factura_angajati.h
+factura.h
+C:/Users/Alina/Desktop/tema3/headers/factura.h
+
+C:/Users/Alina/Desktop/tema3/main.cpp
+iostream
+-
+vector
+-
+memory
+-
+headers/abonament.h
+C:/Users/Alina/Desktop/tema3/headers/abonament.h
+headers/factura.h
+C:/Users/Alina/Desktop/tema3/headers/factura.h
+headers/client.h
+C:/Users/Alina/Desktop/tema3/headers/client.h
+headers/abonament_angajati.h
+C:/Users/Alina/Desktop/tema3/headers/abonament_angajati.h
+headers/Abonament_Premiu.h
+C:/Users/Alina/Desktop/tema3/headers/Abonament_Premiu.h
+headers/eroare_date.h
+C:/Users/Alina/Desktop/tema3/headers/eroare_date.h
+headers/factura_angajati.h
+C:/Users/Alina/Desktop/tema3/headers/factura_angajati.h
+headers/abonament_aniversar.h
+C:/Users/Alina/Desktop/tema3/headers/abonament_aniversar.h
 

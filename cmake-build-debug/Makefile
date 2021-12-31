@@ -56,10 +56,10 @@ RM = "C:\Users\Alina\AppData\Local\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Alina\Desktop\poo v2"
+CMAKE_SOURCE_DIR = C:\Users\Alina\Desktop\tema3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Alina\Desktop\poo v2\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\Alina\Desktop\tema3\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Alina\Desktop\poo v2\cmake-build-debug\CMakeFiles" "C:\Users\Alina\Desktop\poo v2\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alina\Desktop\tema3\cmake-build-debug\CMakeFiles C:\Users\Alina\Desktop\tema3\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Alina\Desktop\poo v2\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alina\Desktop\tema3\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -127,30 +127,6 @@ poo: cmake_check_build_system
 poo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/build
 .PHONY : poo/fast
-
-Citire.obj: Citire.cpp.obj
-.PHONY : Citire.obj
-
-# target to build an object file
-Citire.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/Citire.cpp.obj
-.PHONY : Citire.cpp.obj
-
-Citire.i: Citire.cpp.i
-.PHONY : Citire.i
-
-# target to preprocess a source file
-Citire.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/Citire.cpp.i
-.PHONY : Citire.cpp.i
-
-Citire.s: Citire.cpp.s
-.PHONY : Citire.s
-
-# target to generate assembly for a file
-Citire.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/Citire.cpp.s
-.PHONY : Citire.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -200,30 +176,6 @@ sources/Abonament_Premiu.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/Abonament_Premiu.cpp.s
 .PHONY : sources/Abonament_Premiu.cpp.s
 
-sources/Printare.obj: sources/Printare.cpp.obj
-.PHONY : sources/Printare.obj
-
-# target to build an object file
-sources/Printare.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/Printare.cpp.obj
-.PHONY : sources/Printare.cpp.obj
-
-sources/Printare.i: sources/Printare.cpp.i
-.PHONY : sources/Printare.i
-
-# target to preprocess a source file
-sources/Printare.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/Printare.cpp.i
-.PHONY : sources/Printare.cpp.i
-
-sources/Printare.s: sources/Printare.cpp.s
-.PHONY : sources/Printare.s
-
-# target to generate assembly for a file
-sources/Printare.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/Printare.cpp.s
-.PHONY : sources/Printare.cpp.s
-
 sources/abonament.obj: sources/abonament.cpp.obj
 .PHONY : sources/abonament.obj
 
@@ -271,6 +223,30 @@ sources/abonament_angajati.s: sources/abonament_angajati.cpp.s
 sources/abonament_angajati.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/abonament_angajati.cpp.s
 .PHONY : sources/abonament_angajati.cpp.s
+
+sources/abonament_aniversar.obj: sources/abonament_aniversar.cpp.obj
+.PHONY : sources/abonament_aniversar.obj
+
+# target to build an object file
+sources/abonament_aniversar.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/abonament_aniversar.cpp.obj
+.PHONY : sources/abonament_aniversar.cpp.obj
+
+sources/abonament_aniversar.i: sources/abonament_aniversar.cpp.i
+.PHONY : sources/abonament_aniversar.i
+
+# target to preprocess a source file
+sources/abonament_aniversar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/abonament_aniversar.cpp.i
+.PHONY : sources/abonament_aniversar.cpp.i
+
+sources/abonament_aniversar.s: sources/abonament_aniversar.cpp.s
+.PHONY : sources/abonament_aniversar.s
+
+# target to generate assembly for a file
+sources/abonament_aniversar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/abonament_aniversar.cpp.s
+.PHONY : sources/abonament_aniversar.cpp.s
 
 sources/client.obj: sources/client.cpp.obj
 .PHONY : sources/client.obj
@@ -377,24 +353,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... poo
-	@echo ... Citire.obj
-	@echo ... Citire.i
-	@echo ... Citire.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... sources/Abonament_Premiu.obj
 	@echo ... sources/Abonament_Premiu.i
 	@echo ... sources/Abonament_Premiu.s
-	@echo ... sources/Printare.obj
-	@echo ... sources/Printare.i
-	@echo ... sources/Printare.s
 	@echo ... sources/abonament.obj
 	@echo ... sources/abonament.i
 	@echo ... sources/abonament.s
 	@echo ... sources/abonament_angajati.obj
 	@echo ... sources/abonament_angajati.i
 	@echo ... sources/abonament_angajati.s
+	@echo ... sources/abonament_aniversar.obj
+	@echo ... sources/abonament_aniversar.i
+	@echo ... sources/abonament_aniversar.s
 	@echo ... sources/client.obj
 	@echo ... sources/client.i
 	@echo ... sources/client.s

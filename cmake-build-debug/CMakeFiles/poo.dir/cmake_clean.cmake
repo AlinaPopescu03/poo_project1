@@ -1,10 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/poo.dir/Citire.cpp.obj"
   "CMakeFiles/poo.dir/main.cpp.obj"
   "CMakeFiles/poo.dir/sources/Abonament_Premiu.cpp.obj"
-  "CMakeFiles/poo.dir/sources/Printare.cpp.obj"
   "CMakeFiles/poo.dir/sources/abonament.cpp.obj"
   "CMakeFiles/poo.dir/sources/abonament_angajati.cpp.obj"
+  "CMakeFiles/poo.dir/sources/abonament_aniversar.cpp.obj"
   "CMakeFiles/poo.dir/sources/client.cpp.obj"
   "CMakeFiles/poo.dir/sources/eroare_date.cpp.obj"
   "CMakeFiles/poo.dir/sources/factura.cpp.obj"

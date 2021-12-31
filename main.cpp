@@ -8,6 +8,7 @@
 #include"headers/Abonament_Premiu.h"
 #include "headers/eroare_date.h"
 #include "headers/factura_angajati.h"
+#include"headers/abonament_aniversar.h"
 
 
 int main() {
@@ -131,18 +132,46 @@ int main() {
 
 
     /// CLIENT
-   // Eroare lungime CNP
-   // client c1{"Marian", "Preda", "14759402304", 100, f1};
+    // Eroare lungime CNP
+    // client c1{"Marian", "Preda", "14759402304", 100, f1};
 
 
    std::shared_ptr<abonament> a3 = std::make_shared<abonament>(100, 1200, 400);
    std::shared_ptr<abonament> a4 = std::make_shared<abonament>(100, 100, 301);
    std::shared_ptr<factura> f1=std::make_shared<factura_angajati>(a3, a4);
 
-   client c1{"Marian", "Preda", "1234567890123", 100, f1};
-   std::cout<<c1.getDiferenta();
-   std::cout<<c1.getRestanta();
+    try {
+        std::shared_ptr<abonament> a5 = std::make_shared<abonament>(100, 1200, 400);
+    }
+    catch (eroare_tipuri_date &err1)
+    {   std::cout<<err1.what()<<"\n";
+
+    }
+
+   try{
+       client c1{"Marian", "Preda", "123456q890123", 100, f1};
+   }
+   catch(eroare_tipuri_date &err)
+   {
+       std::cout<<err.what()<<"\n";
+   }
+
+   //std::cout<<c1.getDiferenta();
+   //std::cout<<c1.getRestanta();
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

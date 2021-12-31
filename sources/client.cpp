@@ -13,22 +13,14 @@ client::client(){std::cout<<"Constructor client"<<std::endl;}
 client::client(std::string nume1 , std::string prenume1,  std::string cnp1,float achitat, const std::shared_ptr<factura> &factura_ )
     :nume(nume1), prenume(prenume1), cnp(cnp1),achitat(achitat), factura_(factura_)
 {
-    int eroare=0;
-    try{
-        cnp1.length()!=13;
-        throw cnp_prea_scurt();
-}
-    catch (cnp_prea_scurt) {std::cout<<"Introduceti alt CNP\n"; eroare=1;}
-
-
-     try{
+    if(cnp1.length()!=13)
+        throw eroare_cnp_prea_scurt();
+    else
+    {
         for(int i=0; i<13; i++)
-            if(cnp1[i]<0 || cnp1[i]>9)
-                throw cnp_invalid();
+            if(cnp[i]<0 || cnp[i]>9)
+                throw eroare_cnp_invalid();
     }
-    catch (cnp_invalid)
-    {if (eroare==0)
-        std::cout<<"Introduceti alt CNP\n";};
     setRestant();
     std::cout<<"Constructor client  param"<<std::endl;
 } // Constructor cu parametrii

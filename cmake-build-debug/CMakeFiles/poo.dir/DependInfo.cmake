@@ -8,16 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Alina/Desktop/poo v2/Citire.cpp" "C:/Users/Alina/Desktop/poo v2/cmake-build-debug/CMakeFiles/poo.dir/Citire.cpp.obj"
-  "C:/Users/Alina/Desktop/poo v2/main.cpp" "C:/Users/Alina/Desktop/poo v2/cmake-build-debug/CMakeFiles/poo.dir/main.cpp.obj"
-  "C:/Users/Alina/Desktop/poo v2/sources/Abonament_Premiu.cpp" "C:/Users/Alina/Desktop/poo v2/cmake-build-debug/CMakeFiles/poo.dir/sources/Abonament_Premiu.cpp.obj"
-  "C:/Users/Alina/Desktop/poo v2/sources/Printare.cpp" "C:/Users/Alina/Desktop/poo v2/cmake-build-debug/CMakeFiles/poo.dir/sources/Printare.cpp.obj"
-  "C:/Users/Alina/Desktop/poo v2/sources/abonament.cpp" "C:/Users/Alina/Desktop/poo v2/cmake-build-debug/CMakeFiles/poo.dir/sources/abonament.cpp.obj"
-  "C:/Users/Alina/Desktop/poo v2/sources/abonament_angajati.cpp" "C:/Users/Alina/Desktop/poo v2/cmake-build-debug/CMakeFiles/poo.dir/sources/abonament_angajati.cpp.obj"
-  "C:/Users/Alina/Desktop/poo v2/sources/client.cpp" "C:/Users/Alina/Desktop/poo v2/cmake-build-debug/CMakeFiles/poo.dir/sources/client.cpp.obj"
-  "C:/Users/Alina/Desktop/poo v2/sources/eroare_date.cpp" "C:/Users/Alina/Desktop/poo v2/cmake-build-debug/CMakeFiles/poo.dir/sources/eroare_date.cpp.obj"
-  "C:/Users/Alina/Desktop/poo v2/sources/factura.cpp" "C:/Users/Alina/Desktop/poo v2/cmake-build-debug/CMakeFiles/poo.dir/sources/factura.cpp.obj"
-  "C:/Users/Alina/Desktop/poo v2/sources/factura_angajati.cpp" "C:/Users/Alina/Desktop/poo v2/cmake-build-debug/CMakeFiles/poo.dir/sources/factura_angajati.cpp.obj"
+  "C:/Users/Alina/Desktop/tema3/main.cpp" "C:/Users/Alina/Desktop/tema3/cmake-build-debug/CMakeFiles/poo.dir/main.cpp.obj"
+  "C:/Users/Alina/Desktop/tema3/sources/Abonament_Premiu.cpp" "C:/Users/Alina/Desktop/tema3/cmake-build-debug/CMakeFiles/poo.dir/sources/Abonament_Premiu.cpp.obj"
+  "C:/Users/Alina/Desktop/tema3/sources/abonament.cpp" "C:/Users/Alina/Desktop/tema3/cmake-build-debug/CMakeFiles/poo.dir/sources/abonament.cpp.obj"
+  "C:/Users/Alina/Desktop/tema3/sources/abonament_angajati.cpp" "C:/Users/Alina/Desktop/tema3/cmake-build-debug/CMakeFiles/poo.dir/sources/abonament_angajati.cpp.obj"
+  "C:/Users/Alina/Desktop/tema3/sources/abonament_aniversar.cpp" "C:/Users/Alina/Desktop/tema3/cmake-build-debug/CMakeFiles/poo.dir/sources/abonament_aniversar.cpp.obj"
+  "C:/Users/Alina/Desktop/tema3/sources/client.cpp" "C:/Users/Alina/Desktop/tema3/cmake-build-debug/CMakeFiles/poo.dir/sources/client.cpp.obj"
+  "C:/Users/Alina/Desktop/tema3/sources/eroare_date.cpp" "C:/Users/Alina/Desktop/tema3/cmake-build-debug/CMakeFiles/poo.dir/sources/eroare_date.cpp.obj"
+  "C:/Users/Alina/Desktop/tema3/sources/factura.cpp" "C:/Users/Alina/Desktop/tema3/cmake-build-debug/CMakeFiles/poo.dir/sources/factura.cpp.obj"
+  "C:/Users/Alina/Desktop/tema3/sources/factura_angajati.cpp" "C:/Users/Alina/Desktop/tema3/cmake-build-debug/CMakeFiles/poo.dir/sources/factura_angajati.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

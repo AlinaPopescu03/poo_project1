@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Alina/Desktop/poo v2/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Alina/Desktop/tema3/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/poo v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/poo v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/poo v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/poo v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Alina/Desktop/poo v2/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Alina/Desktop/tema3/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/poo v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/poo v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/poo v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/poo v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="poo">
-				<Option output="C:/Users/Alina/Desktop/poo v2/cmake-build-debug/poo.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Alina/Desktop/poo v2/cmake-build-debug"/>
+				<Option output="C:/Users/Alina/Desktop/tema3/cmake-build-debug/poo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Alina/Desktop/tema3/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -43,15 +43,15 @@
 					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/poo v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 poo"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/poo v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/poo v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/poo v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 poo"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="poo/fast">
-				<Option output="C:/Users/Alina/Desktop/poo v2/cmake-build-debug/poo.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Alina/Desktop/poo v2/cmake-build-debug"/>
+				<Option output="C:/Users/Alina/Desktop/tema3/cmake-build-debug/poo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Alina/Desktop/tema3/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -65,72 +65,66 @@
 					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/poo v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 poo/fast"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/poo v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/poo v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/poo v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 poo/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Alina/Desktop/poo v2/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Alina/Desktop/tema3/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/poo v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/poo v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/poo v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/poo v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alina/Desktop/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/Citire.cpp">
+		<Unit filename="C:/Users/Alina/Desktop/tema3/headers/Abonament_Premiu.h">
 			<Option target="poo"/>
 		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/Citire.h">
+		<Unit filename="C:/Users/Alina/Desktop/tema3/headers/abonament_angajati.h">
 			<Option target="poo"/>
 		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/headers/Abonament_Premiu.h">
+		<Unit filename="C:/Users/Alina/Desktop/tema3/headers/abonament_aniversar.h">
 			<Option target="poo"/>
 		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/headers/Printare.h">
+		<Unit filename="C:/Users/Alina/Desktop/tema3/headers/eroare_date.h">
 			<Option target="poo"/>
 		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/headers/abonament_angajati.h">
+		<Unit filename="C:/Users/Alina/Desktop/tema3/headers/factura_angajati.h">
 			<Option target="poo"/>
 		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/headers/eroare_date.h">
+		<Unit filename="C:/Users/Alina/Desktop/tema3/main.cpp">
 			<Option target="poo"/>
 		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/headers/factura_angajati.h">
+		<Unit filename="C:/Users/Alina/Desktop/tema3/sources/Abonament_Premiu.cpp">
 			<Option target="poo"/>
 		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/main.cpp">
+		<Unit filename="C:/Users/Alina/Desktop/tema3/sources/abonament.cpp">
 			<Option target="poo"/>
 		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/sources/Abonament_Premiu.cpp">
+		<Unit filename="C:/Users/Alina/Desktop/tema3/sources/abonament_angajati.cpp">
 			<Option target="poo"/>
 		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/sources/Printare.cpp">
+		<Unit filename="C:/Users/Alina/Desktop/tema3/sources/abonament_aniversar.cpp">
 			<Option target="poo"/>
 		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/sources/abonament.cpp">
+		<Unit filename="C:/Users/Alina/Desktop/tema3/sources/client.cpp">
 			<Option target="poo"/>
 		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/sources/abonament_angajati.cpp">
+		<Unit filename="C:/Users/Alina/Desktop/tema3/sources/eroare_date.cpp">
 			<Option target="poo"/>
 		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/sources/client.cpp">
+		<Unit filename="C:/Users/Alina/Desktop/tema3/sources/factura.cpp">
 			<Option target="poo"/>
 		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/sources/eroare_date.cpp">
+		<Unit filename="C:/Users/Alina/Desktop/tema3/sources/factura_angajati.cpp">
 			<Option target="poo"/>
 		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/sources/factura.cpp">
-			<Option target="poo"/>
-		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/sources/factura_angajati.cpp">
-			<Option target="poo"/>
-		</Unit>
-		<Unit filename="C:/Users/Alina/Desktop/poo v2/CMakeLists.txt">
+		<Unit filename="C:/Users/Alina/Desktop/tema3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
