@@ -4,10 +4,25 @@ abonament_angajati::abonament_angajati(float minute_nationale, float  minute_int
     :abonament(minute_nationale, minute_internationale, trafic_internet){
     std::cout<<"Constructor abonament angajat"<<std::endl;
 
-}std::ostream& operator<<(std::ostream &os, abonament_angajati &abonament ){
+}
+
+void abonament_angajati::citire(std::istream &in) {
+    abonament::citire(in);
+
+}
+
+std::ostream& operator<<(std::ostream &os, abonament_angajati &abonament ){
     abonament.printare(os);
     return os;
 }
+
+std::istream& operator>>(std::istream &in, abonament_angajati &abonament ){
+   abonament.citire(in);
+    return in;
+}
+
+
+
 void abonament_angajati::printare(std::ostream &os) const  {
     os<<"Abonament angajati:"<<std::endl;
     abonament::printare(os);

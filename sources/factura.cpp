@@ -1,6 +1,6 @@
 #include "../headers/factura.h"
 
-factura::factura ( const std::shared_ptr<abonament> &cerere, const std::shared_ptr<abonament> &oferta):cerere(cerere), oferta(oferta)
+factura::factura ( const abonament &cerere, const abonament &oferta):cerere(cerere), oferta(oferta)
 {
 
     setPret_Abonament();
@@ -12,8 +12,8 @@ factura::factura ( const std::shared_ptr<abonament> &cerere, const std::shared_p
 
 void factura::setPret_Abonament()
 {
-    pret_abonament=20*(oferta->getMinute_Internationale()/1000)+25*(oferta->getMinute_Nationale()/100)+
-                   25*(oferta->getTrafic_Internet()/1000);
+    pret_abonament=20*(oferta.getMinute_Internationale()/1000)+25*(oferta.getMinute_Nationale()/100)+
+                   25*(oferta.getTrafic_Internet()/1000);
 } //Setare pret contract
 
 void factura::setPret_Total()
@@ -28,12 +28,12 @@ void factura::setCost_Suplimentar()
 {
     cost_suplimentar=0;
 
-    if(cerere->getMinute_Internationale()>oferta->getMinute_Internationale())
-            cost_suplimentar+=10*(cerere->getMinute_Internationale()-oferta->getMinute_Internationale())/1000;
-    if (cerere->getMinute_Nationale()>oferta->getMinute_Nationale())
-            cost_suplimentar+=15*(cerere->getMinute_Nationale()-oferta->getMinute_Nationale())/100;
-    if (cerere->getTrafic_Internet()>oferta->getTrafic_Internet())
-            cost_suplimentar+=15*(cerere->getTrafic_Internet()-oferta->getTrafic_Internet())/100;
+    if(cerere.getMinute_Internationale()>oferta.getMinute_Internationale())
+            cost_suplimentar+=10*(cerere.getMinute_Internationale()-oferta.getMinute_Internationale())/1000;
+    if (cerere.getMinute_Nationale()>oferta.getMinute_Nationale())
+            cost_suplimentar+=15*(cerere.getMinute_Nationale()-oferta.getMinute_Nationale())/100;
+    if (cerere.getTrafic_Internet()>oferta.getTrafic_Internet())
+            cost_suplimentar+=15*(cerere.getTrafic_Internet()-oferta.getTrafic_Internet())/100;
 
 } //Calcul cost suplimentar lunar
 

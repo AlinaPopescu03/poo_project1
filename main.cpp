@@ -9,6 +9,7 @@
 #include "headers/eroare_date.h"
 #include "headers/factura_angajati.h"
 #include"headers/abonament_aniversar.h"
+#include"headers/data_naster.h"
 
 
 int main() {
@@ -131,50 +132,35 @@ int main() {
     std::cout<<"------------------------------"<<std::endl;*/
 
 
-    /// CLIENT
-    // Eroare lungime CNP
-    // client c1{"Marian", "Preda", "14759402304", 100, f1};
+        //Verificare citire si afisare
+        abonament a3;
+        std::cin>>a3;
+        std::cout<<a3;
 
 
-   std::shared_ptr<abonament> a3 = std::make_shared<abonament>(100, 1200, 400);
-   std::shared_ptr<abonament> a4 = std::make_shared<abonament>(100, 100, 301);
-   std::shared_ptr<factura> f1=std::make_shared<factura_angajati>(a3, a4);
+        //UPCAST
+        abonament *p=new abonament_angajati;
+        std::cin>>*p;
+        std::cout<<*p;
 
-    try {
-        std::shared_ptr<abonament> a5 = std::make_shared<abonament>(100, 1200, 400);
+
+        //DOWNCAST
+        abonament_angajati *ab1=(abonament_angajati*) new abonament;
+        std::cin>>*ab1;
+        std::cout<<*ab1;
+
+        factura f1{{100, 200, 300}, {600, 600, 390}};
+
+        //Client eroare CNP
+        try{
+            client c1{"Marian", "Preda", "14759402304", 100, f1};
+            std::cout << c1 << "\n";
+            std::cout << c1.getDiferenta();
+            std::cout << c1.getRestanta();
+        }catch (eroare_tipuri_date &err1) {
+            std::cout << err1.what() << "\n";
+        }
     }
-    catch (eroare_tipuri_date &err1)
-    {   std::cout<<err1.what()<<"\n";
-
-    }
-
-   try{
-       client c1{"Marian", "Preda", "123456q890123", 100, f1};
-   }
-   catch(eroare_tipuri_date &err)
-   {
-       std::cout<<err.what()<<"\n";
-   }
-
-   //std::cout<<c1.getDiferenta();
-   //std::cout<<c1.getRestanta();
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

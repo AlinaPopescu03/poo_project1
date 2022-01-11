@@ -9,17 +9,17 @@ protected:
     float pret_abonament;
     float cost_suplimentar;
     float pret_total;
-    std::shared_ptr<abonament> cerere;
-    std::shared_ptr<abonament> oferta;
+    abonament cerere;
+    abonament oferta;
 
     void setPret_Abonament();
-    virtual void setPret_Total();
+
     void setCost_Suplimentar();
 public:
 
-
+    virtual void setPret_Total() ;
     factura(){}
-    factura( const std::shared_ptr<abonament> &cerere, const std::shared_ptr<abonament> &oferta);
+    factura( const abonament &cerere, const abonament &oferta);
     factura operator=(const factura &copie);
     factura(const factura& copie);
     float getCost_abonament()const;

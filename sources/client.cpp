@@ -10,7 +10,7 @@ client::client(){std::cout<<"Constructor client"<<std::endl;}
 
 /// Consytructor parametrizat
 // T2: erori
-client::client(std::string nume1 , std::string prenume1,  std::string cnp1,float achitat, const std::shared_ptr<factura> &factura_ )
+client::client(std::string nume1 , std::string prenume1,  std::string cnp1,float achitat, const factura &factura_ )
     :nume(nume1), prenume(prenume1), cnp(cnp1),achitat(achitat), factura_(factura_)
 {
     if(cnp1.length()!=13)
@@ -28,12 +28,12 @@ client::client(std::string nume1 , std::string prenume1,  std::string cnp1,float
 
 void client::setRestant()
 {
-    if(factura_->getCost_total() - achitat )
+    if(factura_.getCost_total() - achitat )
     {   restant=true;
-        diferenta -=factura_->getCost_total() - achitat;}
+        diferenta -=factura_.getCost_total() - achitat;}
     else
     {   restant=false;
-        diferenta +=factura_->getCost_total() - achitat; // poate sa fie si negativ si fie scazut din urmatoarea factura
+        diferenta +=factura_.getCost_total() - achitat; // poate sa fie si negativ si fie scazut din urmatoarea factura
     }
 }
 

@@ -28,9 +28,29 @@ std::ostream &operator<<(std::ostream &os, const abonament &ab)
     return os;
 }
 
+std::istream &operator>>(std::istream &in, abonament &ab)
+{
+    ab.citire(in);
+    return in;
+}
+
+
+void abonament::citire(std::istream &in) {
+
+        double minInternationale;
+        double minNationale;
+        double trafInternet;
+        in>>minInternationale;
+        in>>minNationale;
+        in>>trafInternet;
+        minute_nationale=minNationale;
+        minute_internationale=minInternationale;
+        trafic_internet=trafInternet;
+
+}
  void abonament::printare(std::ostream &os) const {
     os.precision(2);
-    os<<"Abonamentul include "<<minute_nationale<<" minute nationale "<<minute_internationale<<" minute_internationale"<<trafic_internet<<" GB trafic de internet";
+    os<<"Abonamentul include "<<minute_nationale<<" minute nationale "<<minute_internationale<<" minute_internationale"<<trafic_internet<<" GB trafic de internet"<<"\n";
     os<<"========================================"<<std::endl;
 
 }
