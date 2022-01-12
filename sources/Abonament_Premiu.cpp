@@ -29,3 +29,7 @@ float Abonament_Premiu::get_PuncteLoialitate() const {
     return puncte_loialitate;
 }
 
+std::shared_ptr<abonament> Abonament_Premiu::clone() const {
+    return std::make_shared<Abonament_Premiu> (*this);
+}
+

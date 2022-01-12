@@ -7,7 +7,7 @@
 }
 
 
- void factura_angajati::printare(std::ostream &os) const {
+ void factura_angajati::printare(std::ostream &os)  {
     os<<"Factura angajatului este:"<<std::endl;
     factura::printare(os);
 
@@ -15,16 +15,15 @@
 //factura_angajati::factura_angajati(){}
 
 
-factura_angajati::factura_angajati(int zi, int luna, int an, const abonament &cerere,
-                                   const abonament &oferta)
+factura_angajati::factura_angajati(int zi, int luna, int an, const std::shared_ptr<abonament> &cerere, const std::shared_ptr<abonament> &oferta)
         : data_naster(zi, luna, an), factura{cerere, oferta} {
-    setPret_Total();
+    factura_angajati::setPret();
 
     std::cout << "Constructor factura angajat" << std::endl;
 
 }
 
-void factura_angajati::setPret_Total() {
+void factura_angajati::setPret() {
     if (cost_suplimentar == 0)
         pret_total = (1 - discount) * pret_abonament;
     else
@@ -39,3 +38,8 @@ void factura_angajati::setPret_Total() {
 
 }
 
+std::shared_ptr<factura_baza> factura_angajati::clone() const {
+    return std::make_shared<factura_angajati> (*this);
+}
+
+factura_angajati::~factura_angajati(){}

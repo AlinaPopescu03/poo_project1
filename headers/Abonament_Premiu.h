@@ -9,7 +9,8 @@ protected:
     virtual void printare(std::ostream &os) const;
 public:
     Abonament_Premiu(float minute_nationale, float  minute_internationale, float trafic_internet);
-   friend std::ostream &operator<<(std::ostream &os, Abonament_Premiu &ab);
+    friend std::ostream &operator<<(std::ostream &os, Abonament_Premiu &ab);
+    std::shared_ptr<abonament> clone() const final;
     void setPuncteLoialitate();
     virtual ~Abonament_Premiu()=default;
     float get_PuncteLoialitate() const;

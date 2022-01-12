@@ -102,15 +102,7 @@ int main() {
     /*
     std::cout << "------------------------------" << std::endl;
 
-    std::shared_ptr<abonament> a3 = std::make_shared<abonament>(100, 1200, 400);
-    std::shared_ptr<abonament> a4 = std::make_shared<abonament>(100, 100, 301);
 
-    abonament *a = new Abonament_Premiu(2000, 4488, 89);
-    delete a; //Eliberare memorie
-    std::cout << "------------------------------" << std::endl;
-
-    Abonament_Premiu a2{4000, 2000, 3000};
-    std::cout << "Puncte loialitate " << a2.get_PuncteLoialitate() << std::endl;
 }
 */
     ///Factura
@@ -132,31 +124,29 @@ int main() {
     std::cout<<"------------------------------"<<std::endl;*/
 
 
-        //Verificare citire si afisare
-        abonament a3;
-        std::cin>>a3;
-        std::cout<<a3;
+    //abonament_builder abBuild;
+    //abonament abonament2=abBuild.minute_nationale(100).minute_inaternationale(200).trafic_internet(1000).build();
+
+    std::shared_ptr<abonament_angajati> a3 = std::make_shared<abonament_angajati>(100, 1200, 400);
+    std::shared_ptr<abonament_angajati> a4 = std::make_shared<abonament_angajati>(100, 100, 301);
+
+    std::shared_ptr<abonament> a = std::make_shared< abonament_angajati>(2000, 4488, 89);
+    std::cout<<a;
+
+   std::shared_ptr<factura_angajati> f1=std::make_shared<factura_angajati>(2, 1, 200, a3, a4);
+   std::shared_ptr<factura> f2=std::make_shared<factura>( a3, a4);
 
 
-        //UPCAST
-        abonament *p=new abonament_angajati;
-        std::cin>>*p;
-        std::cout<<*p;
+    Abonament_Premiu a2{4000, 2000, 3000};
+    std::cout << "Puncte loialitate " << a2.get_PuncteLoialitate() << std::endl;
 
-
-        //DOWNCAST
-        abonament_angajati *ab1=(abonament_angajati*) new abonament;
-        std::cin>>*ab1;
-        std::cout<<*ab1;
-
-        factura f1{{100, 200, 300}, {600, 600, 390}};
 
         //Client eroare CNP
         try{
-            client c1{"Marian", "Preda", "14759402304", 100, f1};
+            std::shared_ptr<client> c1=std::make_shared<client>("Marian", "Preda", "14759402304", 100, f1);
             std::cout << c1 << "\n";
-            std::cout << c1.getDiferenta();
-            std::cout << c1.getRestanta();
+            std::cout << c1->getDiferenta();
+            std::cout << c1->getRestanta();
         }catch (eroare_tipuri_date &err1) {
             std::cout << err1.what() << "\n";
         }

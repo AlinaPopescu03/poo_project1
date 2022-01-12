@@ -1,6 +1,6 @@
 #include "../headers/abonament_angajati.h"
 
-abonament_angajati::abonament_angajati(float minute_nationale, float  minute_internationale, float trafic_internet)
+abonament_angajati::abonament_angajati( float minute_nationale, float  minute_internationale, float trafic_internet)
     :abonament(minute_nationale, minute_internationale, trafic_internet){
     std::cout<<"Constructor abonament angajat"<<std::endl;
 
