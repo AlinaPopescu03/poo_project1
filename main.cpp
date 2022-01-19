@@ -10,6 +10,7 @@
 #include "headers/factura_angajati.h"
 #include"headers/abonament_aniversar.h"
 #include"headers/data_naster.h"
+#include"headers//abonament_standard.h"
 
 
 int main() {
@@ -135,12 +136,23 @@ int main() {
 
    std::shared_ptr<factura_angajati> f1=std::make_shared<factura_angajati>(2, 1, 200, a3, a4);
    std::shared_ptr<factura> f2=std::make_shared<factura>( a3, a4);
+   f2->setPret();
+   //std::shared_ptr<client> client{};
 
 
-    Abonament_Premiu a2{4000, 2000, 3000};
+    Abonament_Premiu a2{"gold",4000, 2000, 3000};
     std::cout << "Puncte loialitate " << a2.get_PuncteLoialitate() << std::endl;
 
 
+    std::cout<<"==============================\n";
+    //Pentru template
+    abonament_aniversar<std::string> abonament_anv {1000, 1000,  "Smatrphone", "2000",10000, 2 , 37};
+    abonament_anv.setRata();
+    std::cout<<abonament_anv.getRata()<<"\n";
+    abonament_anv.setPret();
+    std::cout<<abonament_anv.getPret()<<"\n";
+    abonament_anv.detaliiAbonament();
+    std::cout<<"===============================\n";
         //Client eroare CNP
         try{
             std::shared_ptr<client> c1=std::make_shared<client>("Marian", "Preda", "14759402304", 100, f1);

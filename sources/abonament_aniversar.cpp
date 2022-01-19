@@ -2,10 +2,10 @@
 #include<string>
 
 
-template class abonament_aniversar< std::string, std::string>;
+template class abonament_aniversar< std::string>;
 
-template<typename U, typename T>
-void abonament_aniversar<U, T>::detaliiAbonament(){
+template<typename U>
+void abonament_aniversar<U>::detaliiAbonament(){
     std::cout<<"Minute nationale: "<<minute_internationale<<"\n";
     std::cout<<"Minute internationale: "<<minute_internationale<<"\n";
     std::cout<<"Trafic internet: "<<trafic_internet<<"\n";
@@ -22,15 +22,15 @@ void abonament_aniversar<U, T>::detaliiAbonament(){
 }
 
 
-template<typename U, typename T>
-void abonament_aniversar<U, T>::setRata(){
+template<typename U>
+void abonament_aniversar<U>::setRata(){
     double v=std::stoi(valoare_beneficiu);
     rata=v/(12*durata);
 
 }
 
-template<typename U, typename T>
-void abonament_aniversar<U, T>::setPretTotal()  {
+template<typename U>
+void abonament_aniversar<U>::setPret()  {
     if (rata>0)
         pretTotal=pret+getRata();
     else
@@ -38,13 +38,20 @@ void abonament_aniversar<U, T>::setPretTotal()  {
 
 }
 
-template<typename U, typename T>
-double abonament_aniversar<U,T>::getRata() {
+template<typename U>
+double abonament_aniversar<U>::getRata() {
     return rata;
 }
 
-template<typename U, typename T>
-abonament_aniversar<U, T>::abonament_aniversar(const abonament_aniversar &copie)
+template<typename U>
+double abonament_aniversar<U>::getPret()  {
+    return pretTotal;
+}
+
+
+
+template<typename U>
+abonament_aniversar<U>::abonament_aniversar(const abonament_aniversar &copie)
     :minute_nationale(copie.minute_nationale), minute_internationale(copie.minute_internationale),
     trafic_internet(copie.trafic_internet), beneficiu(copie.beneficiu), durata(copie.durata), pret(copie.pret){
 

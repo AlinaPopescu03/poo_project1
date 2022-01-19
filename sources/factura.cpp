@@ -3,9 +3,9 @@
 factura::factura ( const  std::shared_ptr<abonament> &cerere, const  std::shared_ptr<abonament> &oferta):cerere(cerere), oferta(oferta)
 {
 
-    setPret_Abonament();
+   setPret_Abonament();
     setCost_Suplimentar();
-    this->setPret();
+   // this->setPret();
 
     std::cout<<"Constructor factura parametrizat"<<std::endl;}//Constructor cu parametrii
 
@@ -14,7 +14,7 @@ void factura::setPret_Abonament()
 {
     pret_abonament=20*(oferta->getMinute_Internationale()/1000)+25*(oferta->getMinute_Nationale()/100)+
                    25*(oferta->getTrafic_Internet()/1000);
-} //Setare pret contract
+} //Setare pret contract*/
 
 void factura::setPret()
 {
@@ -49,7 +49,7 @@ this->cerere=copie.cerere;
 
 float factura::getCost_abonament()const{return pret_abonament;}
 float factura::getCost_Suplimentar()const{return cost_suplimentar;}
-float factura::getCost_total(){return factura_baza::getPret();}
+float factura::getCost_total(){ this->setPret(); return factura_baza::getPret();}
 
 
 std::ostream& operator<<(std::ostream& os,const  factura& factura)
@@ -60,9 +60,9 @@ std::ostream& operator<<(std::ostream& os,const  factura& factura)
 
 
 void factura::printare(std::ostream &os) {
+    this->setPret();
     os<<factura_baza::getPret()<<"\n";
 }
-
 
 
 
@@ -77,6 +77,8 @@ std::shared_ptr<factura_baza> factura::clone() const{
     return std::make_shared<factura> (*this);
 
 }
+
+
 
 
 
