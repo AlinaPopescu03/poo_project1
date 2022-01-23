@@ -26,12 +26,12 @@ public:
 
     //factura operator=(const factura &copie);
     factura(const factura& copie);
-    float getCost_abonament()const;
-     float getCost_Suplimentar()const;
+    float getCost_abonament();
+     float getCost_Suplimentar();
      float getCost_total();
 
      void printare(std::ostream &os)override ;
-     virtual std::shared_ptr<factura_baza> clone() const;
+     virtual std::shared_ptr<factura_baza> clone() const override;
     // friend std::istream& operator>>(std::istream&, const factura&);
     friend std::ostream& operator<<(std::ostream &os, const factura &factura); //supracincarcarea opertaorului <<
     //virtual ~factura()=default;

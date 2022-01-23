@@ -15,7 +15,7 @@ public:
     void printare(std::ostream &os) override;
     //FUNCTIA VIRTUALA
     void setPret() ;
-    std::shared_ptr<factura_baza> clone() const  ;
+    std::shared_ptr<factura_baza> clone() const override ;
     friend std::ostream &operator<<(std::ostream &os, factura_angajati &factura);
     factura_angajati(int zi, int luna, int an,const std::shared_ptr<abonament> &cerere, const std::shared_ptr<abonament> &oferta);
     ~factura_angajati();

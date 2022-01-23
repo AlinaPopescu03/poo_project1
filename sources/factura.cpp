@@ -47,9 +47,17 @@ this->cerere=copie.cerere;
 
 }
 
-float factura::getCost_abonament()const{return pret_abonament;}
-float factura::getCost_Suplimentar()const{return cost_suplimentar;}
-float factura::getCost_total(){ this->setPret(); return factura_baza::getPret();}
+float factura::getCost_abonament(){
+    this->setPret_Abonament();
+    return pret_abonament;}
+
+float factura::getCost_Suplimentar()
+{   this->setCost_Suplimentar();
+    return cost_suplimentar;}
+
+float factura::getCost_total()
+{   this->setPret();
+    return factura_baza::getPret();}
 
 
 std::ostream& operator<<(std::ostream& os,const  factura& factura)
