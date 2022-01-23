@@ -6,10 +6,13 @@ CMakeFiles/poo.dir/main.cpp.obj
  C:/Users/Alina/Desktop/tema3/headers/abonament.h
  C:/Users/Alina/Desktop/tema3/headers/abonament_angajati.h
  C:/Users/Alina/Desktop/tema3/headers/abonament_aniversar.h
+ C:/Users/Alina/Desktop/tema3/headers/abonament_standard.h
  C:/Users/Alina/Desktop/tema3/headers/client.h
+ C:/Users/Alina/Desktop/tema3/headers/data_naster.h
  C:/Users/Alina/Desktop/tema3/headers/eroare_date.h
  C:/Users/Alina/Desktop/tema3/headers/factura.h
  C:/Users/Alina/Desktop/tema3/headers/factura_angajati.h
+ C:/Users/Alina/Desktop/tema3/headers/factura_baza.h
  C:/Users/Alina/Desktop/tema3/main.cpp
 CMakeFiles/poo.dir/sources/Abonament_Premiu.cpp.obj
  C:/Users/Alina/Desktop/tema3/headers/Abonament_Premiu.h
@@ -22,30 +25,50 @@ CMakeFiles/poo.dir/sources/abonament.cpp.obj
 CMakeFiles/poo.dir/sources/abonament_angajati.cpp.obj
  C:/Users/Alina/Desktop/tema3/headers/abonament.h
  C:/Users/Alina/Desktop/tema3/headers/abonament_angajati.h
+ C:/Users/Alina/Desktop/tema3/headers/data_naster.h
  C:/Users/Alina/Desktop/tema3/sources/abonament_angajati.cpp
 CMakeFiles/poo.dir/sources/abonament_aniversar.cpp.obj
  C:/Users/Alina/Desktop/tema3/headers/abonament_aniversar.h
  C:/Users/Alina/Desktop/tema3/sources/abonament_aniversar.cpp
+CMakeFiles/poo.dir/sources/abonament_standard.cpp.obj
+ C:/Users/Alina/Desktop/tema3/headers/abonament_standard.h
+ C:/Users/Alina/Desktop/tema3/sources/abonament_standard.cpp
 CMakeFiles/poo.dir/sources/client.cpp.obj
  C:/Users/Alina/Desktop/tema3/headers/abonament.h
  C:/Users/Alina/Desktop/tema3/headers/client.h
  C:/Users/Alina/Desktop/tema3/headers/eroare_date.h
  C:/Users/Alina/Desktop/tema3/headers/factura.h
+ C:/Users/Alina/Desktop/tema3/headers/factura_baza.h
  C:/Users/Alina/Desktop/tema3/sources/client.cpp
+CMakeFiles/poo.dir/sources/data_naster.cpp.obj
+ C:/Users/Alina/Desktop/tema3/headers/data_naster.h
+ C:/Users/Alina/Desktop/tema3/sources/data_naster.cpp
 CMakeFiles/poo.dir/sources/eroare_date.cpp.obj
  C:/Users/Alina/Desktop/tema3/headers/abonament.h
  C:/Users/Alina/Desktop/tema3/headers/client.h
  C:/Users/Alina/Desktop/tema3/headers/eroare_date.h
  C:/Users/Alina/Desktop/tema3/headers/factura.h
+ C:/Users/Alina/Desktop/tema3/headers/factura_baza.h
  C:/Users/Alina/Desktop/tema3/sources/eroare_date.cpp
 CMakeFiles/poo.dir/sources/factura.cpp.obj
  C:/Users/Alina/Desktop/tema3/headers/abonament.h
  C:/Users/Alina/Desktop/tema3/headers/eroare_date.h
  C:/Users/Alina/Desktop/tema3/headers/factura.h
+ C:/Users/Alina/Desktop/tema3/headers/factura_baza.h
  C:/Users/Alina/Desktop/tema3/sources/factura.cpp
 CMakeFiles/poo.dir/sources/factura_angajati.cpp.obj
  C:/Users/Alina/Desktop/tema3/headers/abonament.h
+ C:/Users/Alina/Desktop/tema3/headers/data_naster.h
  C:/Users/Alina/Desktop/tema3/headers/eroare_date.h
  C:/Users/Alina/Desktop/tema3/headers/factura.h
  C:/Users/Alina/Desktop/tema3/headers/factura_angajati.h
+ C:/Users/Alina/Desktop/tema3/headers/factura_baza.h
  C:/Users/Alina/Desktop/tema3/sources/factura_angajati.cpp
+CMakeFiles/poo.dir/sources/factura_baza.cpp.obj
+ C:/Users/Alina/Desktop/tema3/headers/factura_baza.h
+ C:/Users/Alina/Desktop/tema3/sources/factura_baza.cpp
+CMakeFiles/poo.dir/sources/factura_standar.cpp.obj
+ C:/Users/Alina/Desktop/tema3/headers/abonament_standard.h
+ C:/Users/Alina/Desktop/tema3/headers/factura_baza.h
+ C:/Users/Alina/Desktop/tema3/headers/factura_standar.h
+ C:/Users/Alina/Desktop/tema3/sources/factura_standar.cpp

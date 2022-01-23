@@ -13,10 +13,14 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Alina/Desktop/tema3/sources/abonament.cpp" "C:/Users/Alina/Desktop/tema3/cmake-build-debug/CMakeFiles/poo.dir/sources/abonament.cpp.obj"
   "C:/Users/Alina/Desktop/tema3/sources/abonament_angajati.cpp" "C:/Users/Alina/Desktop/tema3/cmake-build-debug/CMakeFiles/poo.dir/sources/abonament_angajati.cpp.obj"
   "C:/Users/Alina/Desktop/tema3/sources/abonament_aniversar.cpp" "C:/Users/Alina/Desktop/tema3/cmake-build-debug/CMakeFiles/poo.dir/sources/abonament_aniversar.cpp.obj"
+  "C:/Users/Alina/Desktop/tema3/sources/abonament_standard.cpp" "C:/Users/Alina/Desktop/tema3/cmake-build-debug/CMakeFiles/poo.dir/sources/abonament_standard.cpp.obj"
   "C:/Users/Alina/Desktop/tema3/sources/client.cpp" "C:/Users/Alina/Desktop/tema3/cmake-build-debug/CMakeFiles/poo.dir/sources/client.cpp.obj"
+  "C:/Users/Alina/Desktop/tema3/sources/data_naster.cpp" "C:/Users/Alina/Desktop/tema3/cmake-build-debug/CMakeFiles/poo.dir/sources/data_naster.cpp.obj"
   "C:/Users/Alina/Desktop/tema3/sources/eroare_date.cpp" "C:/Users/Alina/Desktop/tema3/cmake-build-debug/CMakeFiles/poo.dir/sources/eroare_date.cpp.obj"
   "C:/Users/Alina/Desktop/tema3/sources/factura.cpp" "C:/Users/Alina/Desktop/tema3/cmake-build-debug/CMakeFiles/poo.dir/sources/factura.cpp.obj"
   "C:/Users/Alina/Desktop/tema3/sources/factura_angajati.cpp" "C:/Users/Alina/Desktop/tema3/cmake-build-debug/CMakeFiles/poo.dir/sources/factura_angajati.cpp.obj"
+  "C:/Users/Alina/Desktop/tema3/sources/factura_baza.cpp" "C:/Users/Alina/Desktop/tema3/cmake-build-debug/CMakeFiles/poo.dir/sources/factura_baza.cpp.obj"
+  "C:/Users/Alina/Desktop/tema3/sources/factura_standar.cpp" "C:/Users/Alina/Desktop/tema3/cmake-build-debug/CMakeFiles/poo.dir/sources/factura_standar.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

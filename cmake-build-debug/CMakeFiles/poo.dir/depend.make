@@ -6,10 +6,13 @@ CMakeFiles/poo.dir/main.cpp.obj: \
  ../headers/abonament.h \
  ../headers/abonament_angajati.h \
  ../headers/abonament_aniversar.h \
+ ../headers/abonament_standard.h \
  ../headers/client.h \
+ ../headers/data_naster.h \
  ../headers/eroare_date.h \
  ../headers/factura.h \
  ../headers/factura_angajati.h \
+ ../headers/factura_baza.h \
  ../main.cpp
 CMakeFiles/poo.dir/sources/Abonament_Premiu.cpp.obj: \
  ../headers/Abonament_Premiu.h \
@@ -22,30 +25,50 @@ CMakeFiles/poo.dir/sources/abonament.cpp.obj: \
 CMakeFiles/poo.dir/sources/abonament_angajati.cpp.obj: \
  ../headers/abonament.h \
  ../headers/abonament_angajati.h \
+ ../headers/data_naster.h \
  ../sources/abonament_angajati.cpp
 CMakeFiles/poo.dir/sources/abonament_aniversar.cpp.obj: \
  ../headers/abonament_aniversar.h \
  ../sources/abonament_aniversar.cpp
+CMakeFiles/poo.dir/sources/abonament_standard.cpp.obj: \
+ ../headers/abonament_standard.h \
+ ../sources/abonament_standard.cpp
 CMakeFiles/poo.dir/sources/client.cpp.obj: \
  ../headers/abonament.h \
  ../headers/client.h \
  ../headers/eroare_date.h \
  ../headers/factura.h \
+ ../headers/factura_baza.h \
  ../sources/client.cpp
+CMakeFiles/poo.dir/sources/data_naster.cpp.obj: \
+ ../headers/data_naster.h \
+ ../sources/data_naster.cpp
 CMakeFiles/poo.dir/sources/eroare_date.cpp.obj: \
  ../headers/abonament.h \
  ../headers/client.h \
  ../headers/eroare_date.h \
  ../headers/factura.h \
+ ../headers/factura_baza.h \
  ../sources/eroare_date.cpp
 CMakeFiles/poo.dir/sources/factura.cpp.obj: \
  ../headers/abonament.h \
  ../headers/eroare_date.h \
  ../headers/factura.h \
+ ../headers/factura_baza.h \
  ../sources/factura.cpp
 CMakeFiles/poo.dir/sources/factura_angajati.cpp.obj: \
  ../headers/abonament.h \
+ ../headers/data_naster.h \
  ../headers/eroare_date.h \
  ../headers/factura.h \
  ../headers/factura_angajati.h \
+ ../headers/factura_baza.h \
  ../sources/factura_angajati.cpp
+CMakeFiles/poo.dir/sources/factura_baza.cpp.obj: \
+ ../headers/factura_baza.h \
+ ../sources/factura_baza.cpp
+CMakeFiles/poo.dir/sources/factura_standar.cpp.obj: \
+ ../headers/abonament_standard.h \
+ ../headers/factura_baza.h \
+ ../headers/factura_standar.h \
+ ../sources/factura_standar.cpp

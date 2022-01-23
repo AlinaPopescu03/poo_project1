@@ -91,10 +91,22 @@
 		<Unit filename="C:/Users/Alina/Desktop/tema3/headers/abonament_aniversar.h">
 			<Option target="poo"/>
 		</Unit>
+		<Unit filename="C:/Users/Alina/Desktop/tema3/headers/abonament_standard.h">
+			<Option target="poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Alina/Desktop/tema3/headers/data_naster.h">
+			<Option target="poo"/>
+		</Unit>
 		<Unit filename="C:/Users/Alina/Desktop/tema3/headers/eroare_date.h">
 			<Option target="poo"/>
 		</Unit>
 		<Unit filename="C:/Users/Alina/Desktop/tema3/headers/factura_angajati.h">
+			<Option target="poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Alina/Desktop/tema3/headers/factura_baza.h">
+			<Option target="poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Alina/Desktop/tema3/headers/factura_standar.h">
 			<Option target="poo"/>
 		</Unit>
 		<Unit filename="C:/Users/Alina/Desktop/tema3/main.cpp">
@@ -112,7 +124,13 @@
 		<Unit filename="C:/Users/Alina/Desktop/tema3/sources/abonament_aniversar.cpp">
 			<Option target="poo"/>
 		</Unit>
+		<Unit filename="C:/Users/Alina/Desktop/tema3/sources/abonament_standard.cpp">
+			<Option target="poo"/>
+		</Unit>
 		<Unit filename="C:/Users/Alina/Desktop/tema3/sources/client.cpp">
+			<Option target="poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Alina/Desktop/tema3/sources/data_naster.cpp">
 			<Option target="poo"/>
 		</Unit>
 		<Unit filename="C:/Users/Alina/Desktop/tema3/sources/eroare_date.cpp">
@@ -122,6 +140,12 @@
 			<Option target="poo"/>
 		</Unit>
 		<Unit filename="C:/Users/Alina/Desktop/tema3/sources/factura_angajati.cpp">
+			<Option target="poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Alina/Desktop/tema3/sources/factura_baza.cpp">
+			<Option target="poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Alina/Desktop/tema3/sources/factura_standar.cpp">
 			<Option target="poo"/>
 		</Unit>
 		<Unit filename="C:/Users/Alina/Desktop/tema3/CMakeLists.txt">

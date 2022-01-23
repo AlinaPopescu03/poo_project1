@@ -248,6 +248,30 @@ sources/abonament_aniversar.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/abonament_aniversar.cpp.s
 .PHONY : sources/abonament_aniversar.cpp.s
 
+sources/abonament_standard.obj: sources/abonament_standard.cpp.obj
+.PHONY : sources/abonament_standard.obj
+
+# target to build an object file
+sources/abonament_standard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/abonament_standard.cpp.obj
+.PHONY : sources/abonament_standard.cpp.obj
+
+sources/abonament_standard.i: sources/abonament_standard.cpp.i
+.PHONY : sources/abonament_standard.i
+
+# target to preprocess a source file
+sources/abonament_standard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/abonament_standard.cpp.i
+.PHONY : sources/abonament_standard.cpp.i
+
+sources/abonament_standard.s: sources/abonament_standard.cpp.s
+.PHONY : sources/abonament_standard.s
+
+# target to generate assembly for a file
+sources/abonament_standard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/abonament_standard.cpp.s
+.PHONY : sources/abonament_standard.cpp.s
+
 sources/client.obj: sources/client.cpp.obj
 .PHONY : sources/client.obj
 
@@ -271,6 +295,30 @@ sources/client.s: sources/client.cpp.s
 sources/client.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/client.cpp.s
 .PHONY : sources/client.cpp.s
+
+sources/data_naster.obj: sources/data_naster.cpp.obj
+.PHONY : sources/data_naster.obj
+
+# target to build an object file
+sources/data_naster.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/data_naster.cpp.obj
+.PHONY : sources/data_naster.cpp.obj
+
+sources/data_naster.i: sources/data_naster.cpp.i
+.PHONY : sources/data_naster.i
+
+# target to preprocess a source file
+sources/data_naster.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/data_naster.cpp.i
+.PHONY : sources/data_naster.cpp.i
+
+sources/data_naster.s: sources/data_naster.cpp.s
+.PHONY : sources/data_naster.s
+
+# target to generate assembly for a file
+sources/data_naster.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/data_naster.cpp.s
+.PHONY : sources/data_naster.cpp.s
 
 sources/eroare_date.obj: sources/eroare_date.cpp.obj
 .PHONY : sources/eroare_date.obj
@@ -344,6 +392,54 @@ sources/factura_angajati.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/factura_angajati.cpp.s
 .PHONY : sources/factura_angajati.cpp.s
 
+sources/factura_baza.obj: sources/factura_baza.cpp.obj
+.PHONY : sources/factura_baza.obj
+
+# target to build an object file
+sources/factura_baza.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/factura_baza.cpp.obj
+.PHONY : sources/factura_baza.cpp.obj
+
+sources/factura_baza.i: sources/factura_baza.cpp.i
+.PHONY : sources/factura_baza.i
+
+# target to preprocess a source file
+sources/factura_baza.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/factura_baza.cpp.i
+.PHONY : sources/factura_baza.cpp.i
+
+sources/factura_baza.s: sources/factura_baza.cpp.s
+.PHONY : sources/factura_baza.s
+
+# target to generate assembly for a file
+sources/factura_baza.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/factura_baza.cpp.s
+.PHONY : sources/factura_baza.cpp.s
+
+sources/factura_standar.obj: sources/factura_standar.cpp.obj
+.PHONY : sources/factura_standar.obj
+
+# target to build an object file
+sources/factura_standar.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/factura_standar.cpp.obj
+.PHONY : sources/factura_standar.cpp.obj
+
+sources/factura_standar.i: sources/factura_standar.cpp.i
+.PHONY : sources/factura_standar.i
+
+# target to preprocess a source file
+sources/factura_standar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/factura_standar.cpp.i
+.PHONY : sources/factura_standar.cpp.i
+
+sources/factura_standar.s: sources/factura_standar.cpp.s
+.PHONY : sources/factura_standar.s
+
+# target to generate assembly for a file
+sources/factura_standar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\poo.dir\build.make CMakeFiles/poo.dir/sources/factura_standar.cpp.s
+.PHONY : sources/factura_standar.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -368,9 +464,15 @@ help:
 	@echo ... sources/abonament_aniversar.obj
 	@echo ... sources/abonament_aniversar.i
 	@echo ... sources/abonament_aniversar.s
+	@echo ... sources/abonament_standard.obj
+	@echo ... sources/abonament_standard.i
+	@echo ... sources/abonament_standard.s
 	@echo ... sources/client.obj
 	@echo ... sources/client.i
 	@echo ... sources/client.s
+	@echo ... sources/data_naster.obj
+	@echo ... sources/data_naster.i
+	@echo ... sources/data_naster.s
 	@echo ... sources/eroare_date.obj
 	@echo ... sources/eroare_date.i
 	@echo ... sources/eroare_date.s
@@ -380,6 +482,12 @@ help:
 	@echo ... sources/factura_angajati.obj
 	@echo ... sources/factura_angajati.i
 	@echo ... sources/factura_angajati.s
+	@echo ... sources/factura_baza.obj
+	@echo ... sources/factura_baza.i
+	@echo ... sources/factura_baza.s
+	@echo ... sources/factura_standar.obj
+	@echo ... sources/factura_standar.i
+	@echo ... sources/factura_standar.s
 .PHONY : help
 
 

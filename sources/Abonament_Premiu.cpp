@@ -1,9 +1,9 @@
 
 #include "../headers/Abonament_Premiu.h"
 
-Abonament_Premiu::Abonament_Premiu(float minute_nationale, float  minute_internationale, float trafic_internet)
-    :abonament(minute_nationale, minute_internationale, trafic_internet){
-    setPuncteLoialitate();
+Abonament_Premiu::Abonament_Premiu(std::string nume, float minute_nationale, float  minute_internationale, float trafic_internet)
+    :abonament(minute_nationale, minute_internationale, trafic_internet), nume(nume){
+    //setPuncteLoialitate();
     std::cout<<"Constructor pentru abonament premium"<<std::endl;
 
 }
